@@ -289,24 +289,3 @@ The recommended configuration uses the learned matcher and disables S5.
   addition to the `pytesseract` Python package.
 
 ---
-
-## Citation
-
-If you use this code, please cite the paper:
-
-```bibtex
-@inproceedings{multiview2027,
-  title     = {When a Second View Helps: A Study of Multi-View Enhancement
-               for Degraded Image Recognition},
-  author    = {Anonymous},
-  booktitle = {Under review},
-  year      = {2027}
-}
-```
-
----
-
-## License
-
-Released under the MIT License unless noted otherwise. Third-party models
-(TTSR, LightGlue, RAFT) remain under their respective licenses.
