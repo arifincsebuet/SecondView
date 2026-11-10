@@ -1,0 +1,104 @@
+fusion aligned 31 matchers {'sift'}
+
+===  ALL 55
+Input           ssim 0.830 [0.802,0.856] psnr 23.627 [21.657,25.443] lapvar med 93.5 char_acc 0.140 [0.109,0.176] word_acc 0.026 [0.011,0.044]
+DownUp-4x@384   ssim 0.739 [0.715,0.761] psnr 20.950 [19.390,22.411] lapvar med 8.3 char_acc 0.026 [0.019,0.035] word_acc 0.001 [0.000,0.002]
+DownUp-4x@full  ssim 0.824 [0.796,0.850] psnr 23.351 [21.407,25.131] lapvar med 85.4 char_acc 0.128 [0.101,0.156] word_acc 0.016 [0.008,0.026]
+Unsharp-0.5     ssim 0.832 [0.803,0.858] psnr 23.695 [21.682,25.504] lapvar med 116.7 char_acc 0.156 [0.121,0.195] word_acc 0.035 [0.016,0.060]
+Unsharp-1.2     ssim 0.833 [0.805,0.859] psnr 23.710 [21.708,25.549] lapvar med 154.2 char_acc 0.174 [0.134,0.219] word_acc 0.048 [0.021,0.081]
+Fusion          ssim 0.824 [0.796,0.850] psnr 23.578 [21.607,25.413] lapvar med 118.6 char_acc 0.148 [0.117,0.182] word_acc 0.027 [0.012,0.045]
+Chance          char_acc 0.212 [0.207,0.217] word_acc 0.000 [0.000,0.000]
+  ssim
+   Unsharp1.2 - Input: diff +0.0029 [+0.0010,+0.0047] a>b 40/55 ties 0 p=0.00615
+   Unsharp0.5 - Input: diff +0.0018 [+0.0011,+0.0025] a>b 44/55 ties 0 p=8.51e-05
+   Fusion - Input: diff -0.0059 [-0.0081,-0.0040] a>b 0/55 ties 24 p=1.17e-06
+   Fusion - Unsharp0.5: diff -0.0077 [-0.0102,-0.0055] a>b 3/55 ties 0 p=4.27e-09
+   Fusion - Unsharp1.2: diff -0.0088 [-0.0120,-0.0059] a>b 11/55 ties 0 p=4.98e-07
+   DownUp384 - Input: diff -0.0914 [-0.0997,-0.0834] a>b 0/55 ties 0 p=1.11e-10
+  psnr
+   Unsharp1.2 - Input: diff +0.0835 [-0.0327,+0.1989] a>b 39/55 ties 0 p=0.049
+   Unsharp0.5 - Input: diff +0.0688 [+0.0291,+0.1108] a>b 44/55 ties 0 p=0.00319
+   Fusion - Input: diff -0.0487 [-0.0666,-0.0330] a>b 0/55 ties 24 p=1.17e-06
+   Fusion - Unsharp0.5: diff -0.1176 [-0.1697,-0.0703] a>b 10/55 ties 0 p=7.38e-06
+   Fusion - Unsharp1.2: diff -0.1322 [-0.2591,-0.0099] a>b 16/55 ties 0 p=0.03
+   DownUp384 - Input: diff -2.6767 [-3.1398,-2.2187] a>b 0/55 ties 0 p=1.11e-10
+  char_acc
+   Unsharp1.2 - Input: diff +0.0335 [+0.0205,+0.0479] a>b 43/55 ties 2 p=1.15e-06
+   Unsharp0.5 - Input: diff +0.0153 [+0.0074,+0.0238] a>b 35/55 ties 1 p=0.00211
+   Fusion - Input: diff +0.0076 [+0.0034,+0.0123] a>b 20/55 ties 26 p=0.00132
+   Fusion - Unsharp0.5: diff -0.0077 [-0.0152,-0.0004] a>b 24/55 ties 2 p=0.173
+   Fusion - Unsharp1.2: diff -0.0259 [-0.0401,-0.0127] a>b 17/55 ties 2 p=0.000793
+   DownUp384 - Input: diff -0.1140 [-0.1455,-0.0861] a>b 2/55 ties 0 p=2.52e-10
+   Input - Chance: diff -0.0715 [-0.1012,-0.0381] a>b 13/55 ties 0 p=7.4e-05
+   Unsharp1.2 - Chance: diff -0.0380 [-0.0772,+0.0038] a>b 14/55 ties 0 p=0.0294
+   Fusion - Chance: diff -0.0639 [-0.0938,-0.0327] a>b 14/55 ties 0 p=0.000147
+  word_acc
+   Unsharp1.2 - Input: diff +0.0229 [+0.0090,+0.0394] a>b 14/55 ties 36 p=0.00454
+   Unsharp0.5 - Input: diff +0.0099 [+0.0036,+0.0176] a>b 17/55 ties 33 p=0.00294
+   Fusion - Input: diff +0.0014 [-0.0004,+0.0033] a>b 8/55 ties 43 p=0.17
+   Fusion - Unsharp0.5: diff -0.0085 [-0.0152,-0.0030] a>b 5/55 ties 34 p=0.00777
+   Fusion - Unsharp1.2: diff -0.0215 [-0.0367,-0.0084] a>b 6/55 ties 33 p=0.0142
+   DownUp384 - Input: diff -0.0246 [-0.0421,-0.0100] a>b 2/55 ties 36 p=0.000249
+
+===  FUSION-ALIGNED 31
+Input           ssim 0.861 [0.829,0.887] psnr 25.913 [23.692,27.682] lapvar med 104.4 char_acc 0.134 [0.090,0.184] word_acc 0.029 [0.008,0.055]
+DownUp-4x@384   ssim 0.756 [0.731,0.778] psnr 22.492 [20.825,23.834] lapvar med 9.2 char_acc 0.026 [0.016,0.037] word_acc 0.001 [0.000,0.001]
+DownUp-4x@full  ssim 0.854 [0.823,0.880] psnr 25.541 [23.363,27.265] lapvar med 93.1 char_acc 0.124 [0.089,0.164] word_acc 0.017 [0.006,0.031]
+Unsharp-0.5     ssim 0.863 [0.831,0.890] psnr 26.013 [23.760,27.810] lapvar med 130.9 char_acc 0.151 [0.103,0.207] word_acc 0.041 [0.012,0.077]
+Unsharp-1.2     ssim 0.864 [0.832,0.892] psnr 26.052 [23.852,27.831] lapvar med 174.2 char_acc 0.169 [0.113,0.233] word_acc 0.052 [0.015,0.099]
+Fusion          ssim 0.850 [0.818,0.877] psnr 25.827 [23.729,27.568] lapvar med 149.5 char_acc 0.147 [0.104,0.195] word_acc 0.031 [0.010,0.059]
+Chance          char_acc 0.207 [0.201,0.213] word_acc 0.000 [0.000,0.000]
+  ssim
+   Unsharp1.2 - Input: diff +0.0036 [+0.0009,+0.0063] a>b 23/31 ties 0 p=0.0338
+   Unsharp0.5 - Input: diff +0.0022 [+0.0011,+0.0032] a>b 23/31 ties 0 p=0.000831
+   Fusion - Input: diff -0.0105 [-0.0134,-0.0080] a>b 0/31 ties 0 p=9.31e-10
+   Fusion - Unsharp0.5: diff -0.0127 [-0.0161,-0.0099] a>b 0/31 ties 0 p=9.31e-10
+   Fusion - Unsharp1.2: diff -0.0141 [-0.0186,-0.0101] a>b 4/31 ties 0 p=1.57e-07
+   DownUp384 - Input: diff -0.1049 [-0.1153,-0.0943] a>b 0/31 ties 0 p=9.31e-10
+  psnr
+   Unsharp1.2 - Input: diff +0.1386 [-0.0556,+0.3290] a>b 23/31 ties 0 p=0.0727
+   Unsharp0.5 - Input: diff +0.1002 [+0.0358,+0.1660] a>b 23/31 ties 0 p=0.0305
+   Fusion - Input: diff -0.0864 [-0.1105,-0.0665] a>b 0/31 ties 0 p=9.31e-10
+   Fusion - Unsharp0.5: diff -0.1866 [-0.2692,-0.1128] a>b 7/31 ties 0 p=2.82e-05
+   Fusion - Unsharp1.2: diff -0.2250 [-0.4275,-0.0272] a>b 8/31 ties 0 p=0.0502
+   DownUp384 - Input: diff -3.4216 [-3.9896,-2.8391] a>b 0/31 ties 0 p=9.31e-10
+  char_acc
+   Unsharp1.2 - Input: diff +0.0355 [+0.0194,+0.0547] a>b 25/31 ties 1 p=0.000106
+   Unsharp0.5 - Input: diff +0.0175 [+0.0066,+0.0298] a>b 20/31 ties 0 p=0.0121
+   Fusion - Input: diff +0.0135 [+0.0064,+0.0211] a>b 20/31 ties 2 p=0.00132
+   Fusion - Unsharp0.5: diff -0.0040 [-0.0143,+0.0054] a>b 16/31 ties 1 p=0.766
+   Fusion - Unsharp1.2: diff -0.0220 [-0.0411,-0.0054] a>b 12/31 ties 1 p=0.0627
+   DownUp384 - Input: diff -0.1079 [-0.1531,-0.0696] a>b 1/31 ties 0 p=1.92e-06
+   Input - Chance: diff -0.0732 [-0.1145,-0.0264] a>b 7/31 ties 0 p=0.00544
+   Unsharp1.2 - Chance: diff -0.0377 [-0.0907,+0.0229] a>b 8/31 ties 0 p=0.0793
+   Fusion - Chance: diff -0.0597 [-0.0998,-0.0138] a>b 8/31 ties 0 p=0.0124
+  word_acc
+   Unsharp1.2 - Input: diff +0.0232 [+0.0037,+0.0470] a>b 8/31 ties 20 p=0.0163
+   Unsharp0.5 - Input: diff +0.0119 [+0.0022,+0.0245] a>b 10/31 ties 18 p=0.0248
+   Fusion - Input: diff +0.0024 [-0.0007,+0.0058] a>b 8/31 ties 19 p=0.17
+   Fusion - Unsharp0.5: diff -0.0095 [-0.0203,-0.0011] a>b 3/31 ties 19 p=0.0914
+   Fusion - Unsharp1.2: diff -0.0208 [-0.0423,-0.0035] a>b 4/31 ties 17 p=0.0899
+   DownUp384 - Input: diff -0.0284 [-0.0533,-0.0072] a>b 0/31 ties 22 p=0.00769
+
+=== per scenario (all 55) char acc
+S1 Input=0.265 DownUp-4x@=0.037 DownUp-4x@=0.226 Unsharp-0.=0.297 Unsharp-1.=0.333 Fusion=0.274 Chance=0.213
+S2 Input=0.048 DownUp-4x@=0.012 DownUp-4x@=0.046 Unsharp-0.=0.056 Unsharp-1.=0.058 Fusion=0.051 Chance=0.211
+S3 Input=0.091 DownUp-4x@=0.019 DownUp-4x@=0.084 Unsharp-0.=0.102 Unsharp-1.=0.102 Fusion=0.099 Chance=0.211
+S4 Input=0.132 DownUp-4x@=0.021 DownUp-4x@=0.125 Unsharp-0.=0.136 Unsharp-1.=0.146 Fusion=0.143 Chance=0.213
+S5 Input=0.165 DownUp-4x@=0.043 DownUp-4x@=0.158 Unsharp-0.=0.188 Unsharp-1.=0.232 Fusion=0.173 Chance=0.211
+=== per scenario word acc
+S1 Input=0.097 DownUp-4x@=0.001 DownUp-4x@=0.052 Unsharp-0.=0.130 Unsharp-1.=0.169 Fusion=0.101
+S2 Input=0.001 DownUp-4x@=0.001 DownUp-4x@=0.000 Unsharp-0.=0.002 Unsharp-1.=0.000 Fusion=0.002
+S3 Input=0.002 DownUp-4x@=0.001 DownUp-4x@=0.004 Unsharp-0.=0.003 Unsharp-1.=0.003 Fusion=0.003
+S4 Input=0.003 DownUp-4x@=0.000 DownUp-4x@=0.004 Unsharp-0.=0.005 Unsharp-1.=0.003 Fusion=0.004
+S5 Input=0.024 DownUp-4x@=0.002 DownUp-4x@=0.021 Unsharp-0.=0.038 Unsharp-1.=0.067 Fusion=0.024
+ref lengths: [285, 285, 285, 285, 285, 291, 291, 291, 291, 291, 294, 294, 294, 294, 294, 294, 294, 294, 294, 294, 297, 297, 297, 297, 297, 379, 379, 379, 379, 379, 385, 385, 385, 385, 385, 394, 394, 394, 394, 394, 415, 415, 415, 415, 415, 434, 434, 434, 434, 434, 1836, 1836, 1836, 1836, 1836]
+   TTSR(Table2) - Chance: diff -0.0197 [-0.0255,-0.0140] a>b 9/55 ties 0 p=4.36e-07
+   Input(Table2) - Chance: diff -0.0431 [-0.0804,-0.0031] a>b 12/55 ties 0 p=0.0169
+   Proposed(Table2) - Chance: diff -0.0420 [-0.0767,-0.0054] a>b 12/55 ties 0 p=0.00698
+Table2 Input above chance on 12 /55; TTSR above chance on 9
+S1 input>chance 6 ttsr>chance 1 chance mean 0.213
+S2 input>chance 0 ttsr>chance 1 chance mean 0.211
+S3 input>chance 0 ttsr>chance 1 chance mean 0.211
+S4 input>chance 0 ttsr>chance 3 chance mean 0.213
+S5 input>chance 6 ttsr>chance 3 chance mean 0.211

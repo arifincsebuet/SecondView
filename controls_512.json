@@ -1,0 +1,3345 @@
+{
+ "records": [
+  {
+   "ssim": 0.8985339931291846,
+   "psnr": 29.418537844219745,
+   "lapvar": 81.38096985624482,
+   "scenario": "S1",
+   "pair": "pair_01",
+   "method": "Input",
+   "char_acc": 0.10026385224274403,
+   "word_acc": 0.0
+  },
+  {
+   "ssim": 0.7487350818039911,
+   "psnr": 24.422085177449485,
+   "lapvar": 9.265238438939884,
+   "scenario": "S1",
+   "pair": "pair_01",
+   "method": "DownUp-4x@384",
+   "char_acc": 0.079155672823219,
+   "word_acc": 0.0
+  },
+  {
+   "ssim": 0.890231861615,
+   "psnr": 29.12362916816223,
+   "lapvar": 74.0029693837795,
+   "scenario": "S1",
+   "pair": "pair_01",
+   "method": "DownUp-4x@full",
+   "char_acc": 0.11609498680738783,
+   "word_acc": 0.0
+  },
+  {
+   "ssim": 0.9056133087496148,
+   "psnr": 29.7587741814947,
+   "lapvar": 101.40037859438196,
+   "scenario": "S1",
+   "pair": "pair_01",
+   "method": "Unsharp-0.5",
+   "char_acc": 0.12928759894459108,
+   "word_acc": 0.0
+  },
+  {
+   "ssim": 0.913559801083347,
+   "psnr": 30.209674073821656,
+   "lapvar": 132.37393975992583,
+   "scenario": "S1",
+   "pair": "pair_01",
+   "method": "Unsharp-1.2",
+   "char_acc": 0.1345646437994723,
+   "word_acc": 0.0
+  },
+  {
+   "scenario": "S1",
+   "pair": "pair_01",
+   "method": "Chance",
+   "char_acc": 0.208311345646438,
+   "word_acc": 0.0,
+   "ref_len": 379
+  },
+  {
+   "ssim": 0.9185903951704398,
+   "psnr": 28.664914881559138,
+   "lapvar": 93.4752064402888,
+   "scenario": "S1",
+   "pair": "pair_02",
+   "method": "Input",
+   "char_acc": 0.08525345622119818,
+   "word_acc": 0.009090909090909038
+  },
+  {
+   "ssim": 0.7760090692725851,
+   "psnr": 23.94624378841934,
+   "lapvar": 9.35168965220348,
+   "scenario": "S1",
+   "pair": "pair_02",
+   "method": "DownUp-4x@384",
+   "char_acc": 0.011520737327188946,
+   "word_acc": 0.0
+  },
+  {
+   "ssim": 0.9127312633314615,
+   "psnr": 28.39199279189603,
+   "lapvar": 85.40788012080723,
+   "scenario": "S1",
+   "pair": "pair_02",
+   "method": "DownUp-4x@full",
+   "char_acc": 0.09677419354838712,
+   "word_acc": 0.009090909090909038
+  },
+  {
+   "ssim": 0.9248249650954544,
+   "psnr": 29.00151549765639,
+   "lapvar": 116.68772822491724,
+   "scenario": "S1",
+   "pair": "pair_02",
+   "method": "Unsharp-0.5",
+   "char_acc": 0.0875576036866359,
+   "word_acc": 0.0
+  },
+  {
+   "ssim": 0.9320735826615915,
+   "psnr": 29.45147106305285,
+   "lapvar": 153.33387047538744,
+   "scenario": "S1",
+   "pair": "pair_02",
+   "method": "Unsharp-1.2",
+   "char_acc": 0.05760368663594473,
+   "word_acc": 0.009090909090909038
+  },
+  {
+   "scenario": "S1",
+   "pair": "pair_02",
+   "method": "Chance",
+   "char_acc": 0.19711981566820275,
+   "word_acc": 0.0,
+   "ref_len": 434
+  },
+  {
+   "ssim": 0.8976319005053887,
+   "psnr": 27.10918963106969,
+   "lapvar": 125.83807733900743,
+   "scenario": "S1",
+   "pair": "pair_03",
+   "method": "Input",
+   "char_acc": 0.49158249158249157,
+   "word_acc": 0.24705882352941178
+  },
+  {
+   "ssim": 0.7519604494130033,
+   "psnr": 22.908316190693427,
+   "lapvar": 9.600275623068834,
+   "scenario": "S1",
+   "pair": "pair_03",
+   "method": "DownUp-4x@384",
+   "char_acc": 0.09764309764309764,
+   "word_acc": 0.0
+  },
+  {
+   "ssim": 0.8890212714068827,
+   "psnr": 26.802086248196616,
+   "lapvar": 112.360767338011,
+   "scenario": "S1",
+   "pair": "pair_03",
+   "method": "DownUp-4x@full",
+   "char_acc": 0.3535353535353535,
+   "word_acc": 0.09411764705882353
+  },
+  {
+   "ssim": 0.9048636862196836,
+   "psnr": 27.451923355858096,
+   "lapvar": 159.0332830886667,
+   "scenario": "S1",
+   "pair": "pair_03",
+   "method": "Unsharp-0.5",
+   "char_acc": 0.5622895622895623,
+   "word_acc": 0.3647058823529412
+  },
+  {
+   "ssim": 0.9134558716169748,
+   "psnr": 27.920758312562427,
+   "lapvar": 212.70427805410387,
+   "scenario": "S1",
+   "pair": "pair_03",
+   "method": "Unsharp-1.2",
+   "char_acc": 0.6060606060606061,
+   "word_acc": 0.45882352941176474
+  },
+  {
+   "scenario": "S1",
+   "pair": "pair_03",
+   "method": "Chance",
+   "char_acc": 0.23063973063973067,
+   "word_acc": 0.0,
+   "ref_len": 297
+  },
+  {
+   "ssim": 0.8993238892003632,
+   "psnr": 27.304903884168404,
+   "lapvar": 118.64262872892952,
+   "scenario": "S1",
+   "pair": "pair_04",
+   "method": "Input",
+   "char_acc": 0.5136054421768708,
+   "word_acc": 0.26190476190476186
+  },
+  {
+   "ssim": 0.7623010216807911,
+   "psnr": 23.111934114481084,
+   "lapvar": 8.760279337332273,
+   "scenario": "S1",
+   "pair": "pair_04",
+   "method": "DownUp-4x@384",
+   "char_acc": 0.04081632653061229,
+   "word_acc": 0.0
+  },
+  {
+   "ssim": 0.8905747316877823,
+   "psnr": 26.989827672646758,
+   "lapvar": 106.50475052826938,
+   "scenario": "S1",
+   "pair": "pair_04",
+   "method": "DownUp-4x@full",
+   "char_acc": 0.4217687074829932,
+   "word_acc": 0.15476190476190477
+  },
+  {
+   "ssim": 0.9064494384735322,
+   "psnr": 27.646376365991983,
+   "lapvar": 150.02848795426289,
+   "scenario": "S1",
+   "pair": "pair_04",
+   "method": "Unsharp-0.5",
+   "char_acc": 0.5714285714285714,
+   "word_acc": 0.30952380952380953
+  },
+  {
+   "ssim": 0.9147577996897079,
+   "psnr": 28.112071642737174,
+   "lapvar": 200.5951228402555,
+   "scenario": "S1",
+   "pair": "pair_04",
+   "method": "Unsharp-1.2",
+   "char_acc": 0.6054421768707483,
+   "word_acc": 0.4285714285714286
+  },
+  {
+   "scenario": "S1",
+   "pair": "pair_04",
+   "method": "Chance",
+   "char_acc": 0.22159863945578234,
+   "word_acc": 0.0,
+   "ref_len": 294
+  },
+  {
+   "ssim": 0.8732427656815679,
+   "psnr": 23.955398117620618,
+   "lapvar": 104.38888496160507,
+   "scenario": "S1",
+   "pair": "pair_05",
+   "method": "Input",
+   "char_acc": 0.2777777777777778,
+   "word_acc": 0.025925925925925908
+  },
+  {
+   "ssim": 0.7251925205010009,
+   "psnr": 21.233989612249026,
+   "lapvar": 10.293746948009357,
+   "scenario": "S1",
+   "pair": "pair_05",
+   "method": "DownUp-4x@384",
+   "char_acc": 0.0887799564270153,
+   "word_acc": 0.007407407407407418
+  },
+  {
+   "ssim": 0.8681781132939196,
+   "psnr": 23.820974451288922,
+   "lapvar": 93.12705928250216,
+   "scenario": "S1",
+   "pair": "pair_05",
+   "method": "DownUp-4x@full",
+   "char_acc": 0.2647058823529411,
+   "word_acc": 0.011111111111111072
+  },
+  {
+   "ssim": 0.8788988581899465,
+   "psnr": 24.086936706681637,
+   "lapvar": 130.92328853035966,
+   "scenario": "S1",
+   "pair": "pair_05",
+   "method": "Unsharp-0.5",
+   "char_acc": 0.2946623093681917,
+   "word_acc": 0.029629629629629672
+  },
+  {
+   "ssim": 0.8857773345081597,
+   "psnr": 24.252783562423307,
+   "lapvar": 174.19816536453752,
+   "scenario": "S1",
+   "pair": "pair_05",
+   "method": "Unsharp-1.2",
+   "char_acc": 0.30501089324618735,
+   "word_acc": 0.01851851851851849
+  },
+  {
+   "scenario": "S1",
+   "pair": "pair_05",
+   "method": "Chance",
+   "char_acc": 0.1795479302832244,
+   "word_acc": 0.0,
+   "ref_len": 1836
+  },
+  {
+   "ssim": 0.92512888996289,
+   "psnr": 29.643481227152265,
+   "lapvar": 70.660832722335,
+   "scenario": "S1",
+   "pair": "pair_06",
+   "method": "Input",
+   "char_acc": 0.09090909090909094,
+   "word_acc": 0.0
+  },
+  {
+   "ssim": 0.7845476062179535,
+   "psnr": 24.922184620918454,
+   "lapvar": 8.437917073567709,
+   "scenario": "S1",
+   "pair": "pair_06",
+   "method": "DownUp-4x@384",
+   "char_acc": 0.0025974025974025983,
+   "word_acc": 0.0
+  },
+  {
+   "ssim": 0.9196010003525955,
+   "psnr": 29.372639154572138,
+   "lapvar": 64.55867513020833,
+   "scenario": "S1",
+   "pair": "pair_06",
+   "method": "DownUp-4x@full",
+   "char_acc": 0.07012987012987015,
+   "word_acc": 0.0
+  },
+  {
+   "ssim": 0.9304448859382337,
+   "psnr": 29.954223603632308,
+   "lapvar": 87.70371500278513,
+   "scenario": "S1",
+   "pair": "pair_06",
+   "method": "Unsharp-0.5",
+   "char_acc": 0.09870129870129873,
+   "word_acc": 0.0
+  },
+  {
+   "ssim": 0.9363969205983205,
+   "psnr": 30.358149129745186,
+   "lapvar": 113.95829264281527,
+   "scenario": "S1",
+   "pair": "pair_06",
+   "method": "Unsharp-1.2",
+   "char_acc": 0.11948051948051952,
+   "word_acc": 0.0
+  },
+  {
+   "scenario": "S1",
+   "pair": "pair_06",
+   "method": "Chance",
+   "char_acc": 0.20688311688311684,
+   "word_acc": 0.0,
+   "ref_len": 385
+  },
+  {
+   "ssim": 0.9310803741809838,
+   "psnr": 29.542737566887332,
+   "lapvar": 82.1646575573573,
+   "scenario": "S1",
+   "pair": "pair_07",
+   "method": "Input",
+   "char_acc": 0.06746987951807226,
+   "word_acc": 0.0
+  },
+  {
+   "ssim": 0.7940480721799753,
+   "psnr": 24.325035468974132,
+   "lapvar": 10.269312536318063,
+   "scenario": "S1",
+   "pair": "pair_07",
+   "method": "DownUp-4x@384",
+   "char_acc": 0.002409638554216831,
+   "word_acc": 0.0
+  },
+  {
+   "ssim": 0.9259049634556487,
+   "psnr": 29.253681496063933,
+   "lapvar": 75.22524508520857,
+   "scenario": "S1",
+   "pair": "pair_07",
+   "method": "DownUp-4x@full",
+   "char_acc": 0.05783132530120483,
+   "word_acc": 0.0
+  },
+  {
+   "ssim": 0.9360749051066367,
+   "psnr": 29.895809518842743,
+   "lapvar": 101.21158341191612,
+   "scenario": "S1",
+   "pair": "pair_07",
+   "method": "Unsharp-0.5",
+   "char_acc": 0.050602409638554224,
+   "word_acc": 0.0
+  },
+  {
+   "ssim": 0.9419631854269472,
+   "psnr": 30.372140331251195,
+   "lapvar": 131.23150627221912,
+   "scenario": "S1",
+   "pair": "pair_07",
+   "method": "Unsharp-1.2",
+   "char_acc": 0.11084337349397588,
+   "word_acc": 0.0
+  },
+  {
+   "scenario": "S1",
+   "pair": "pair_07",
+   "method": "Chance",
+   "char_acc": 0.19795180722891564,
+   "word_acc": 0.0,
+   "ref_len": 415
+  },
+  {
+   "ssim": 0.9462682781299349,
+   "psnr": 29.755263230353588,
+   "lapvar": 111.00089495370378,
+   "scenario": "S1",
+   "pair": "pair_08",
+   "method": "Input",
+   "char_acc": 0.3231292517006803,
+   "word_acc": 0.09523809523809523
+  },
+  {
+   "ssim": 0.8140301982510543,
+   "psnr": 23.98494709726205,
+   "lapvar": 9.850056808752319,
+   "scenario": "S1",
+   "pair": "pair_08",
+   "method": "DownUp-4x@384",
+   "char_acc": 0.03401360544217691,
+   "word_acc": 0.0
+  },
+  {
+   "ssim": 0.9411770779033923,
+   "psnr": 29.403655421725205,
+   "lapvar": 101.51494269311014,
+   "scenario": "S1",
+   "pair": "pair_08",
+   "method": "DownUp-4x@full",
+   "char_acc": 0.29591836734693877,
+   "word_acc": 0.0714285714285714
+  },
+  {
+   "ssim": 0.9515212713875182,
+   "psnr": 30.25899621227343,
+   "lapvar": 137.58972142098682,
+   "scenario": "S1",
+   "pair": "pair_08",
+   "method": "Unsharp-0.5",
+   "char_acc": 0.41496598639455784,
+   "word_acc": 0.1785714285714286
+  },
+  {
+   "ssim": 0.9576974201355947,
+   "psnr": 30.972997945781678,
+   "lapvar": 180.09139968196132,
+   "scenario": "S1",
+   "pair": "pair_08",
+   "method": "Unsharp-1.2",
+   "char_acc": 0.5374149659863945,
+   "word_acc": 0.33333333333333337
+  },
+  {
+   "scenario": "S1",
+   "pair": "pair_08",
+   "method": "Chance",
+   "char_acc": 0.22142857142857145,
+   "word_acc": 0.0,
+   "ref_len": 294
+  },
+  {
+   "ssim": 0.9352405011195077,
+   "psnr": 28.449217006477724,
+   "lapvar": 102.189524328957,
+   "scenario": "S1",
+   "pair": "pair_09",
+   "method": "Input",
+   "char_acc": 0.4467353951890034,
+   "word_acc": 0.22352941176470587
+  },
+  {
+   "ssim": 0.8163552483529384,
+   "psnr": 23.876747835063533,
+   "lapvar": 9.52853393295987,
+   "scenario": "S1",
+   "pair": "pair_09",
+   "method": "DownUp-4x@384",
+   "char_acc": 0.03436426116838487,
+   "word_acc": 0.0
+  },
+  {
+   "ssim": 0.9298768181063826,
+   "psnr": 28.14682892767363,
+   "lapvar": 91.99854532867259,
+   "scenario": "S1",
+   "pair": "pair_09",
+   "method": "DownUp-4x@full",
+   "char_acc": 0.33333333333333337,
+   "word_acc": 0.09411764705882353
+  },
+  {
+   "ssim": 0.9402272093933968,
+   "psnr": 28.805594730598223,
+   "lapvar": 128.0371805800953,
+   "scenario": "S1",
+   "pair": "pair_09",
+   "method": "Unsharp-0.5",
+   "char_acc": 0.5532646048109966,
+   "word_acc": 0.3411764705882353
+  },
+  {
+   "ssim": 0.9461699947803601,
+   "psnr": 29.289304626013163,
+   "lapvar": 169.40381367564098,
+   "scenario": "S1",
+   "pair": "pair_09",
+   "method": "Unsharp-1.2",
+   "char_acc": 0.5910652920962199,
+   "word_acc": 0.388235294117647
+  },
+  {
+   "scenario": "S1",
+   "pair": "pair_09",
+   "method": "Chance",
+   "char_acc": 0.23402061855670103,
+   "word_acc": 0.0,
+   "ref_len": 291
+  },
+  {
+   "ssim": 0.9307260974868196,
+   "psnr": 28.59076801304513,
+   "lapvar": 93.19914719421003,
+   "scenario": "S1",
+   "pair": "pair_10",
+   "method": "Input",
+   "char_acc": 0.45964912280701753,
+   "word_acc": 0.20238095238095233
+  },
+  {
+   "ssim": 0.810630832894347,
+   "psnr": 24.137436988888503,
+   "lapvar": 9.686243689903575,
+   "scenario": "S1",
+   "pair": "pair_10",
+   "method": "DownUp-4x@384",
+   "char_acc": 0.01403508771929829,
+   "word_acc": 0.0
+  },
+  {
+   "ssim": 0.9250415221405508,
+   "psnr": 28.294860368237206,
+   "lapvar": 83.97480730875395,
+   "scenario": "S1",
+   "pair": "pair_10",
+   "method": "DownUp-4x@full",
+   "char_acc": 0.4035087719298246,
+   "word_acc": 0.1428571428571429
+  },
+  {
+   "ssim": 0.9356542533214408,
+   "psnr": 28.93231794164342,
+   "lapvar": 116.72340865671221,
+   "scenario": "S1",
+   "pair": "pair_10",
+   "method": "Unsharp-0.5",
+   "char_acc": 0.4245614035087719,
+   "word_acc": 0.20238095238095233
+  },
+  {
+   "ssim": 0.9415330787670508,
+   "psnr": 29.39505719975638,
+   "lapvar": 154.2023362119734,
+   "scenario": "S1",
+   "pair": "pair_10",
+   "method": "Unsharp-1.2",
+   "char_acc": 0.49473684210526314,
+   "word_acc": 0.22619047619047616
+  },
+  {
+   "scenario": "S1",
+   "pair": "pair_10",
+   "method": "Chance",
+   "char_acc": 0.23947368421052634,
+   "word_acc": 0.0,
+   "ref_len": 285
+  },
+  {
+   "ssim": 0.9307228047638813,
+   "psnr": 30.0975635053352,
+   "lapvar": 71.68429030413326,
+   "scenario": "S1",
+   "pair": "pair_11",
+   "method": "Input",
+   "char_acc": 0.06345177664974622,
+   "word_acc": 0.0
+  },
+  {
+   "ssim": 0.801294796091685,
+   "psnr": 25.012108100792595,
+   "lapvar": 8.380767821851705,
+   "scenario": "S1",
+   "pair": "pair_11",
+   "method": "DownUp-4x@384",
+   "char_acc": 0.0025380710659898,
+   "word_acc": 0.0
+  },
+  {
+   "ssim": 0.9253747651509406,
+   "psnr": 29.79876936091951,
+   "lapvar": 65.4230496932804,
+   "scenario": "S1",
+   "pair": "pair_11",
+   "method": "DownUp-4x@full",
+   "char_acc": 0.07360406091370564,
+   "word_acc": 0.0
+  },
+  {
+   "ssim": 0.9357068937557849,
+   "psnr": 30.447914118158327,
+   "lapvar": 88.78239419494965,
+   "scenario": "S1",
+   "pair": "pair_11",
+   "method": "Unsharp-0.5",
+   "char_acc": 0.08121827411167515,
+   "word_acc": 0.0
+  },
+  {
+   "ssim": 0.9415526282373367,
+   "psnr": 30.913961638118685,
+   "lapvar": 115.45514400300777,
+   "scenario": "S1",
+   "pair": "pair_11",
+   "method": "Unsharp-1.2",
+   "char_acc": 0.09898477157360408,
+   "word_acc": 0.0
+  },
+  {
+   "scenario": "S1",
+   "pair": "pair_11",
+   "method": "Chance",
+   "char_acc": 0.20964467005076143,
+   "word_acc": 0.0,
+   "ref_len": 394
+  },
+  {
+   "ssim": 0.8267993662416471,
+   "psnr": 26.949851216661806,
+   "lapvar": 15.203577463178796,
+   "scenario": "S2",
+   "pair": "pair_01",
+   "method": "Input",
+   "char_acc": 0.0,
+   "word_acc": 0.0
+  },
+  {
+   "ssim": 0.7508652898118549,
+   "psnr": 24.85659258479625,
+   "lapvar": 6.481775917500879,
+   "scenario": "S2",
+   "pair": "pair_01",
+   "method": "DownUp-4x@384",
+   "char_acc": 0.01846965699208447,
+   "word_acc": 0.0
+  },
+  {
+   "ssim": 0.8265234883387127,
+   "psnr": 26.968501475741018,
+   "lapvar": 15.749430147206615,
+   "scenario": "S2",
+   "pair": "pair_01",
+   "method": "DownUp-4x@full",
+   "char_acc": 0.0,
+   "word_acc": 0.0
+  },
+  {
+   "ssim": 0.8291466342532684,
+   "psnr": 27.037890122239947,
+   "lapvar": 17.808257891072163,
+   "scenario": "S2",
+   "pair": "pair_01",
+   "method": "Unsharp-0.5",
+   "char_acc": 0.0237467018469657,
+   "word_acc": 0.0
+  },
+  {
+   "ssim": 0.8316753739205853,
+   "psnr": 27.136175319087094,
+   "lapvar": 20.636555780035753,
+   "scenario": "S2",
+   "pair": "pair_01",
+   "method": "Unsharp-1.2",
+   "char_acc": 0.01846965699208447,
+   "word_acc": 0.0
+  },
+  {
+   "scenario": "S2",
+   "pair": "pair_01",
+   "method": "Chance",
+   "char_acc": 0.20672823218997363,
+   "word_acc": 0.0,
+   "ref_len": 379
+  },
+  {
+   "ssim": 0.8512107630373379,
+   "psnr": 26.276639938085054,
+   "lapvar": 15.753239607412569,
+   "scenario": "S2",
+   "pair": "pair_02",
+   "method": "Input",
+   "char_acc": 0.020737327188940058,
+   "word_acc": 0.0
+  },
+  {
+   "ssim": 0.7776507145268137,
+   "psnr": 24.367370755635633,
+   "lapvar": 6.4039510087006635,
+   "scenario": "S2",
+   "pair": "pair_02",
+   "method": "DownUp-4x@384",
+   "char_acc": 0.004608294930875556,
+   "word_acc": 0.0
+  },
+  {
+   "ssim": 0.8510549237819565,
+   "psnr": 26.289984319357288,
+   "lapvar": 16.24776153721743,
+   "scenario": "S2",
+   "pair": "pair_02",
+   "method": "DownUp-4x@full",
+   "char_acc": 0.016129032258064502,
+   "word_acc": 0.0
+  },
+  {
+   "ssim": 0.8537286634269321,
+   "psnr": 26.360276891760343,
+   "lapvar": 18.336532063756337,
+   "scenario": "S2",
+   "pair": "pair_02",
+   "method": "Unsharp-0.5",
+   "char_acc": 0.018433179723502335,
+   "word_acc": 0.0
+  },
+  {
+   "ssim": 0.856299384278152,
+   "psnr": 26.452064755653076,
+   "lapvar": 21.15121912684602,
+   "scenario": "S2",
+   "pair": "pair_02",
+   "method": "Unsharp-1.2",
+   "char_acc": 0.032258064516129004,
+   "word_acc": 0.0
+  },
+  {
+   "scenario": "S2",
+   "pair": "pair_02",
+   "method": "Chance",
+   "char_acc": 0.18928571428571433,
+   "word_acc": 0.0,
+   "ref_len": 434
+  },
+  {
+   "ssim": 0.827607832069263,
+   "psnr": 24.822830523594085,
+   "lapvar": 17.07556595567924,
+   "scenario": "S2",
+   "pair": "pair_03",
+   "method": "Input",
+   "char_acc": 0.09427609427609429,
+   "word_acc": 0.0
+  },
+  {
+   "ssim": 0.7579591673692507,
+   "psnr": 23.336681750399038,
+   "lapvar": 6.817708268658156,
+   "scenario": "S2",
+   "pair": "pair_03",
+   "method": "DownUp-4x@384",
+   "char_acc": 0.030303030303030276,
+   "word_acc": 0.0
+  },
+  {
+   "ssim": 0.8272273473939846,
+   "psnr": 24.82632608393848,
+   "lapvar": 17.500614863484063,
+   "scenario": "S2",
+   "pair": "pair_03",
+   "method": "DownUp-4x@full",
+   "char_acc": 0.08417508417508412,
+   "word_acc": 0.0
+  },
+  {
+   "ssim": 0.8297879377889856,
+   "psnr": 24.896587251631345,
+   "lapvar": 19.78550140300972,
+   "scenario": "S2",
+   "pair": "pair_03",
+   "method": "Unsharp-0.5",
+   "char_acc": 0.08080808080808077,
+   "word_acc": 0.0117647058823529
+  },
+  {
+   "ssim": 0.8320429917152979,
+   "psnr": 24.97745843172133,
+   "lapvar": 22.822646355851457,
+   "scenario": "S2",
+   "pair": "pair_03",
+   "method": "Unsharp-1.2",
+   "char_acc": 0.07744107744107742,
+   "word_acc": 0.0
+  },
+  {
+   "scenario": "S2",
+   "pair": "pair_03",
+   "method": "Chance",
+   "char_acc": 0.22239057239057236,
+   "word_acc": 0.0,
+   "ref_len": 297
+  },
+  {
+   "ssim": 0.8312295195582382,
+   "psnr": 25.034224526910542,
+   "lapvar": 16.28172806308915,
+   "scenario": "S2",
+   "pair": "pair_04",
+   "method": "Input",
+   "char_acc": 0.09863945578231292,
+   "word_acc": 0.0
+  },
+  {
+   "ssim": 0.7668932599482883,
+   "psnr": 23.538746066863347,
+   "lapvar": 6.391794840080871,
+   "scenario": "S2",
+   "pair": "pair_04",
+   "method": "DownUp-4x@384",
+   "char_acc": 0.0,
+   "word_acc": 0.0
+  },
+  {
+   "ssim": 0.8308229542255448,
+   "psnr": 25.043385088517404,
+   "lapvar": 16.737660551961095,
+   "scenario": "S2",
+   "pair": "pair_04",
+   "method": "DownUp-4x@full",
+   "char_acc": 0.08503401360544216,
+   "word_acc": 0.0
+  },
+  {
+   "ssim": 0.8333350268018369,
+   "psnr": 25.109888781257766,
+   "lapvar": 18.926996835171146,
+   "scenario": "S2",
+   "pair": "pair_04",
+   "method": "Unsharp-0.5",
+   "char_acc": 0.09523809523809523,
+   "word_acc": 0.0
+  },
+  {
+   "ssim": 0.8355677315768754,
+   "psnr": 25.192545028176934,
+   "lapvar": 21.848658212124267,
+   "scenario": "S2",
+   "pair": "pair_04",
+   "method": "Unsharp-1.2",
+   "char_acc": 0.11224489795918369,
+   "word_acc": 0.0
+  },
+  {
+   "scenario": "S2",
+   "pair": "pair_04",
+   "method": "Chance",
+   "char_acc": 0.22976190476190478,
+   "word_acc": 0.0,
+   "ref_len": 294
+  },
+  {
+   "ssim": 0.812800977263168,
+   "psnr": 22.8936796194686,
+   "lapvar": 19.558151040200354,
+   "scenario": "S2",
+   "pair": "pair_05",
+   "method": "Input",
+   "char_acc": 0.006535947712418277,
+   "word_acc": 0.0
+  },
+  {
+   "ssim": 0.7263091810953479,
+   "psnr": 21.532023910901742,
+   "lapvar": 6.81323750790519,
+   "scenario": "S2",
+   "pair": "pair_05",
+   "method": "DownUp-4x@384",
+   "char_acc": 0.02450980392156865,
+   "word_acc": 0.007407407407407418
+  },
+  {
+   "ssim": 0.8127711806226504,
+   "psnr": 22.88970854437111,
+   "lapvar": 20.235290344804525,
+   "scenario": "S2",
+   "pair": "pair_05",
+   "method": "DownUp-4x@full",
+   "char_acc": 0.004357298474945481,
+   "word_acc": 0.0
+  },
+  {
+   "ssim": 0.8155945488707836,
+   "psnr": 22.94634836455981,
+   "lapvar": 22.479049439205696,
+   "scenario": "S2",
+   "pair": "pair_05",
+   "method": "Unsharp-0.5",
+   "char_acc": 0.004357298474945481,
+   "word_acc": 0.0
+  },
+  {
+   "ssim": 0.8184460440063649,
+   "psnr": 23.001686706269773,
+   "lapvar": 25.317041827960782,
+   "scenario": "S2",
+   "pair": "pair_05",
+   "method": "Unsharp-1.2",
+   "char_acc": 0.004901960784313708,
+   "word_acc": 0.0037037037037036535
+  },
+  {
+   "scenario": "S2",
+   "pair": "pair_05",
+   "method": "Chance",
+   "char_acc": 0.17984749455337692,
+   "word_acc": 0.0,
+   "ref_len": 1836
+  },
+  {
+   "ssim": 0.8645177796601781,
+   "psnr": 27.32411003623893,
+   "lapvar": 13.787617936626901,
+   "scenario": "S2",
+   "pair": "pair_06",
+   "method": "Input",
+   "char_acc": 0.012987012987012991,
+   "word_acc": 0.0
+  },
+  {
+   "ssim": 0.7865735046908623,
+   "psnr": 25.36155721605075,
+   "lapvar": 6.10208638299567,
+   "scenario": "S2",
+   "pair": "pair_06",
+   "method": "DownUp-4x@384",
+   "char_acc": 0.0051948051948051965,
+   "word_acc": 0.0
+  },
+  {
+   "ssim": 0.8643003100125082,
+   "psnr": 27.339382699752615,
+   "lapvar": 14.280212342739105,
+   "scenario": "S2",
+   "pair": "pair_06",
+   "method": "DownUp-4x@full",
+   "char_acc": 0.010389610389610393,
+   "word_acc": 0.0
+  },
+  {
+   "ssim": 0.8669076249788491,
+   "psnr": 27.411618514930254,
+   "lapvar": 16.141596386183252,
+   "scenario": "S2",
+   "pair": "pair_06",
+   "method": "Unsharp-0.5",
+   "char_acc": 0.025974025974025983,
+   "word_acc": 0.0
+  },
+  {
+   "ssim": 0.8693858766623797,
+   "psnr": 27.506795280391316,
+   "lapvar": 18.52455634375413,
+   "scenario": "S2",
+   "pair": "pair_06",
+   "method": "Unsharp-1.2",
+   "char_acc": 0.020779220779220786,
+   "word_acc": 0.0
+  },
+  {
+   "scenario": "S2",
+   "pair": "pair_06",
+   "method": "Chance",
+   "char_acc": 0.19999999999999996,
+   "word_acc": 0.0,
+   "ref_len": 385
+  },
+  {
+   "ssim": 0.8730561558653923,
+   "psnr": 26.949741822089763,
+   "lapvar": 16.192459104349837,
+   "scenario": "S2",
+   "pair": "pair_07",
+   "method": "Input",
+   "char_acc": 0.009638554216867434,
+   "word_acc": 0.0
+  },
+  {
+   "ssim": 0.7966981601785156,
+   "psnr": 24.753556209307057,
+   "lapvar": 7.2368570912836345,
+   "scenario": "S2",
+   "pair": "pair_07",
+   "method": "DownUp-4x@384",
+   "char_acc": 0.002409638554216831,
+   "word_acc": 0.0
+  },
+  {
+   "ssim": 0.8729939322909459,
+   "psnr": 26.964976015422405,
+   "lapvar": 16.672587022081842,
+   "scenario": "S2",
+   "pair": "pair_07",
+   "method": "DownUp-4x@full",
+   "char_acc": 0.0072289156626506035,
+   "word_acc": 0.0
+  },
+  {
+   "ssim": 0.8754014756680394,
+   "psnr": 27.04959643037345,
+   "lapvar": 18.64656066767768,
+   "scenario": "S2",
+   "pair": "pair_07",
+   "method": "Unsharp-0.5",
+   "char_acc": 0.009638554216867434,
+   "word_acc": 0.0
+  },
+  {
+   "ssim": 0.8777505065504632,
+   "psnr": 27.158069267710133,
+   "lapvar": 21.307459510216074,
+   "scenario": "S2",
+   "pair": "pair_07",
+   "method": "Unsharp-1.2",
+   "char_acc": 0.012048192771084376,
+   "word_acc": 0.0
+  },
+  {
+   "scenario": "S2",
+   "pair": "pair_07",
+   "method": "Chance",
+   "char_acc": 0.19674698795180723,
+   "word_acc": 0.0,
+   "ref_len": 415
+  },
+  {
+   "ssim": 0.8873793724501221,
+   "psnr": 26.49393464947593,
+   "lapvar": 17.485270112338995,
+   "scenario": "S2",
+   "pair": "pair_08",
+   "method": "Input",
+   "char_acc": 0.08163265306122447,
+   "word_acc": 0.0
+  },
+  {
+   "ssim": 0.8194031926568897,
+   "psnr": 24.45817613843353,
+   "lapvar": 7.254216421990553,
+   "scenario": "S2",
+   "pair": "pair_08",
+   "method": "DownUp-4x@384",
+   "char_acc": 0.013605442176870763,
+   "word_acc": 0.0
+  },
+  {
+   "ssim": 0.8872262777406621,
+   "psnr": 26.496834066976632,
+   "lapvar": 17.84943123262686,
+   "scenario": "S2",
+   "pair": "pair_08",
+   "method": "DownUp-4x@full",
+   "char_acc": 0.08163265306122447,
+   "word_acc": 0.0
+  },
+  {
+   "ssim": 0.8895030450155604,
+   "psnr": 26.598954456718268,
+   "lapvar": 20.061635270611273,
+   "scenario": "S2",
+   "pair": "pair_08",
+   "method": "Unsharp-0.5",
+   "char_acc": 0.09523809523809523,
+   "word_acc": 0.0
+  },
+  {
+   "ssim": 0.8918245374090464,
+   "psnr": 26.721332237525182,
+   "lapvar": 23.019521036081837,
+   "scenario": "S2",
+   "pair": "pair_08",
+   "method": "Unsharp-1.2",
+   "char_acc": 0.11564625850340138,
+   "word_acc": 0.0
+  },
+  {
+   "scenario": "S2",
+   "pair": "pair_08",
+   "method": "Chance",
+   "char_acc": 0.2267006802721089,
+   "word_acc": 0.0,
+   "ref_len": 294
+  },
+  {
+   "ssim": 0.8820139799316241,
+   "psnr": 25.998158474232955,
+   "lapvar": 15.745503741833895,
+   "scenario": "S2",
+   "pair": "pair_09",
+   "method": "Input",
+   "char_acc": 0.06872852233676974,
+   "word_acc": 0.0
+  },
+  {
+   "ssim": 0.8207509269902111,
+   "psnr": 24.326065652539803,
+   "lapvar": 6.991602577657129,
+   "scenario": "S2",
+   "pair": "pair_09",
+   "method": "DownUp-4x@384",
+   "char_acc": 0.02405498281786944,
+   "word_acc": 0.0
+  },
+  {
+   "ssim": 0.8817507081931566,
+   "psnr": 26.003505099791226,
+   "lapvar": 16.086949650172347,
+   "scenario": "S2",
+   "pair": "pair_09",
+   "method": "DownUp-4x@full",
+   "char_acc": 0.06872852233676974,
+   "word_acc": 0.0
+  },
+  {
+   "ssim": 0.8839007389991707,
+   "psnr": 26.08247601383669,
+   "lapvar": 18.138493855147512,
+   "scenario": "S2",
+   "pair": "pair_09",
+   "method": "Unsharp-0.5",
+   "char_acc": 0.08247422680412375,
+   "word_acc": 0.0
+  },
+  {
+   "ssim": 0.8859152828072773,
+   "psnr": 26.177071762806264,
+   "lapvar": 20.79556782913601,
+   "scenario": "S2",
+   "pair": "pair_09",
+   "method": "Unsharp-1.2",
+   "char_acc": 0.07216494845360821,
+   "word_acc": 0.0
+  },
+  {
+   "scenario": "S2",
+   "pair": "pair_09",
+   "method": "Chance",
+   "char_acc": 0.23161512027491407,
+   "word_acc": 0.0,
+   "ref_len": 291
+  },
+  {
+   "ssim": 0.8777910131549176,
+   "psnr": 26.225539494574022,
+   "lapvar": 15.155237672203734,
+   "scenario": "S2",
+   "pair": "pair_10",
+   "method": "Input",
+   "char_acc": 0.12631578947368416,
+   "word_acc": 0.011904761904761862
+  },
+  {
+   "ssim": 0.8151386093128861,
+   "psnr": 24.5411898180895,
+   "lapvar": 7.043660471422807,
+   "scenario": "S2",
+   "pair": "pair_10",
+   "method": "DownUp-4x@384",
+   "char_acc": 0.010526315789473717,
+   "word_acc": 0.0
+  },
+  {
+   "ssim": 0.877475944966943,
+   "psnr": 26.23696117604527,
+   "lapvar": 15.605041255450073,
+   "scenario": "S2",
+   "pair": "pair_10",
+   "method": "DownUp-4x@full",
+   "char_acc": 0.14035087719298245,
+   "word_acc": 0.0
+  },
+  {
+   "ssim": 0.8795991024022791,
+   "psnr": 26.30891023188058,
+   "lapvar": 17.45126836061374,
+   "scenario": "S2",
+   "pair": "pair_10",
+   "method": "Unsharp-0.5",
+   "char_acc": 0.17894736842105263,
+   "word_acc": 0.011904761904761862
+  },
+  {
+   "ssim": 0.8814970139663312,
+   "psnr": 26.40086979840892,
+   "lapvar": 19.924524819866445,
+   "scenario": "S2",
+   "pair": "pair_10",
+   "method": "Unsharp-1.2",
+   "char_acc": 0.16491228070175434,
+   "word_acc": 0.0
+  },
+  {
+   "scenario": "S2",
+   "pair": "pair_10",
+   "method": "Chance",
+   "char_acc": 0.23947368421052634,
+   "word_acc": 0.0,
+   "ref_len": 285
+  },
+  {
+   "ssim": 0.8738449027378985,
+   "psnr": 27.551360936290287,
+   "lapvar": 13.983128808412902,
+   "scenario": "S2",
+   "pair": "pair_11",
+   "method": "Input",
+   "char_acc": 0.0076142131979695105,
+   "word_acc": 0.0
+  },
+  {
+   "ssim": 0.803409004301902,
+   "psnr": 25.4030984547961,
+   "lapvar": 6.155914306537145,
+   "scenario": "S2",
+   "pair": "pair_11",
+   "method": "DownUp-4x@384",
+   "char_acc": 0.0025380710659898,
+   "word_acc": 0.0
+  },
+  {
+   "ssim": 0.8737777715957421,
+   "psnr": 27.568297308290447,
+   "lapvar": 14.442047085613012,
+   "scenario": "S2",
+   "pair": "pair_11",
+   "method": "DownUp-4x@full",
+   "char_acc": 0.005076142131979711,
+   "word_acc": 0.0
+  },
+  {
+   "ssim": 0.8760367341083397,
+   "psnr": 27.647718726394153,
+   "lapvar": 16.298568663471894,
+   "scenario": "S2",
+   "pair": "pair_11",
+   "method": "Unsharp-0.5",
+   "char_acc": 0.005076142131979711,
+   "word_acc": 0.0
+  },
+  {
+   "ssim": 0.878251474490901,
+   "psnr": 27.749521506167348,
+   "lapvar": 18.78009536114728,
+   "scenario": "S2",
+   "pair": "pair_11",
+   "method": "Unsharp-1.2",
+   "char_acc": 0.0025380710659898,
+   "word_acc": 0.0
+  },
+  {
+   "scenario": "S2",
+   "pair": "pair_11",
+   "method": "Chance",
+   "char_acc": 0.200507614213198,
+   "word_acc": 0.0,
+   "ref_len": 394
+  },
+  {
+   "ssim": 0.835954520940058,
+   "psnr": 27.533414113665472,
+   "lapvar": 127.8040503875042,
+   "scenario": "S3",
+   "pair": "pair_01",
+   "method": "Input",
+   "char_acc": 0.0554089709762533,
+   "word_acc": 0.0
+  },
+  {
+   "ssim": 0.7463092929131028,
+   "psnr": 24.345410093894557,
+   "lapvar": 8.462982176078691,
+   "scenario": "S3",
+   "pair": "pair_01",
+   "method": "DownUp-4x@384",
+   "char_acc": 0.0079155672823219,
+   "word_acc": 0.0
+  },
+  {
+   "ssim": 0.8289511572923451,
+   "psnr": 27.380697408994955,
+   "lapvar": 96.43931085551675,
+   "scenario": "S3",
+   "pair": "pair_01",
+   "method": "DownUp-4x@full",
+   "char_acc": 0.0633245382585752,
+   "word_acc": 0.0
+  },
+  {
+   "ssim": 0.8375063916138225,
+   "psnr": 27.568106747100703,
+   "lapvar": 177.86700202066763,
+   "scenario": "S3",
+   "pair": "pair_01",
+   "method": "Unsharp-0.5",
+   "char_acc": 0.1108179419525066,
+   "word_acc": 0.0
+  },
+  {
+   "ssim": 0.8382228192949619,
+   "psnr": 27.553549872428636,
+   "lapvar": 263.21738704531964,
+   "scenario": "S3",
+   "pair": "pair_01",
+   "method": "Unsharp-1.2",
+   "char_acc": 0.10817941952506593,
+   "word_acc": 0.0
+  },
+  {
+   "scenario": "S3",
+   "pair": "pair_01",
+   "method": "Chance",
+   "char_acc": 0.20527704485488124,
+   "word_acc": 0.0,
+   "ref_len": 379
+  },
+  {
+   "ssim": 0.8668960660129778,
+   "psnr": 27.35413234000084,
+   "lapvar": 222.050767424594,
+   "scenario": "S3",
+   "pair": "pair_02",
+   "method": "Input",
+   "char_acc": 0.04377880184331795,
+   "word_acc": 0.0
+  },
+  {
+   "ssim": 0.7730055213217485,
+   "psnr": 23.858566281255094,
+   "lapvar": 8.648284911178052,
+   "scenario": "S3",
+   "pair": "pair_02",
+   "method": "DownUp-4x@384",
+   "char_acc": 0.0,
+   "word_acc": 0.0
+  },
+  {
+   "ssim": 0.8586907281548737,
+   "psnr": 27.002894258221097,
+   "lapvar": 152.90329862797321,
+   "scenario": "S3",
+   "pair": "pair_02",
+   "method": "DownUp-4x@full",
+   "char_acc": 0.048387096774193505,
+   "word_acc": 0.009090909090909038
+  },
+  {
+   "ssim": 0.8687912747379198,
+   "psnr": 27.41789383838302,
+   "lapvar": 326.39158344825,
+   "scenario": "S3",
+   "pair": "pair_02",
+   "method": "Unsharp-0.5",
+   "char_acc": 0.03686635944700456,
+   "word_acc": 0.009090909090909038
+  },
+  {
+   "ssim": 0.8695767000312173,
+   "psnr": 27.39006750185947,
+   "lapvar": 508.0561275339117,
+   "scenario": "S3",
+   "pair": "pair_02",
+   "method": "Unsharp-1.2",
+   "char_acc": 0.05990783410138245,
+   "word_acc": 0.009090909090909038
+  },
+  {
+   "scenario": "S3",
+   "pair": "pair_02",
+   "method": "Chance",
+   "char_acc": 0.19400921658986173,
+   "word_acc": 0.0,
+   "ref_len": 434
+  },
+  {
+   "ssim": 0.8307765162798123,
+   "psnr": 24.985145529807173,
+   "lapvar": 239.95874930907863,
+   "scenario": "S3",
+   "pair": "pair_03",
+   "method": "Input",
+   "char_acc": 0.09764309764309764,
+   "word_acc": 0.0
+  },
+  {
+   "ssim": 0.7491914485014315,
+   "psnr": 22.909421562063578,
+   "lapvar": 8.158716789731344,
+   "scenario": "S3",
+   "pair": "pair_03",
+   "method": "DownUp-4x@384",
+   "char_acc": 0.02020202020202022,
+   "word_acc": 0.0
+  },
+  {
+   "ssim": 0.8211665242079459,
+   "psnr": 24.740099132556846,
+   "lapvar": 156.51316130647643,
+   "scenario": "S3",
+   "pair": "pair_03",
+   "method": "DownUp-4x@full",
+   "char_acc": 0.08754208754208759,
+   "word_acc": 0.0
+  },
+  {
+   "ssim": 0.8312724753099648,
+   "psnr": 24.997026741644888,
+   "lapvar": 362.40900058110464,
+   "scenario": "S3",
+   "pair": "pair_03",
+   "method": "Unsharp-0.5",
+   "char_acc": 0.101010101010101,
+   "word_acc": 0.0
+  },
+  {
+   "ssim": 0.830245309172972,
+   "psnr": 24.936765310325256,
+   "lapvar": 580.7744078244754,
+   "scenario": "S3",
+   "pair": "pair_03",
+   "method": "Unsharp-1.2",
+   "char_acc": 0.11447811447811451,
+   "word_acc": 0.0
+  },
+  {
+   "scenario": "S3",
+   "pair": "pair_03",
+   "method": "Chance",
+   "char_acc": 0.22845117845117846,
+   "word_acc": 0.0,
+   "ref_len": 297
+  },
+  {
+   "ssim": 0.8318555848357851,
+   "psnr": 25.144439029978688,
+   "lapvar": 216.52980768429632,
+   "scenario": "S3",
+   "pair": "pair_04",
+   "method": "Input",
+   "char_acc": 0.11224489795918369,
+   "word_acc": 0.0
+  },
+  {
+   "ssim": 0.7608358442267569,
+   "psnr": 23.14084469987023,
+   "lapvar": 7.690683998064035,
+   "scenario": "S3",
+   "pair": "pair_04",
+   "method": "DownUp-4x@384",
+   "char_acc": 0.013605442176870763,
+   "word_acc": 0.0
+  },
+  {
+   "ssim": 0.8236784939052187,
+   "psnr": 24.93339979334374,
+   "lapvar": 140.81246550712322,
+   "scenario": "S3",
+   "pair": "pair_04",
+   "method": "DownUp-4x@full",
+   "char_acc": 0.11224489795918369,
+   "word_acc": 0.0
+  },
+  {
+   "ssim": 0.8321562766348877,
+   "psnr": 25.149423692770483,
+   "lapvar": 326.45606120261874,
+   "scenario": "S3",
+   "pair": "pair_04",
+   "method": "Unsharp-0.5",
+   "char_acc": 0.09523809523809523,
+   "word_acc": 0.0
+  },
+  {
+   "ssim": 0.8310778464353692,
+   "psnr": 25.08361557491709,
+   "lapvar": 521.6914474411299,
+   "scenario": "S3",
+   "pair": "pair_04",
+   "method": "Unsharp-1.2",
+   "char_acc": 0.108843537414966,
+   "word_acc": 0.0
+  },
+  {
+   "scenario": "S3",
+   "pair": "pair_04",
+   "method": "Chance",
+   "char_acc": 0.22448979591836732,
+   "word_acc": 0.0,
+   "ref_len": 294
+  },
+  {
+   "ssim": 0.827529919890134,
+   "psnr": 23.13237212813016,
+   "lapvar": 210.264073646291,
+   "scenario": "S3",
+   "pair": "pair_05",
+   "method": "Input",
+   "char_acc": 0.16938997821350765,
+   "word_acc": 0.022222222222222254
+  },
+  {
+   "ssim": 0.7249301777376379,
+   "psnr": 21.197848292334,
+   "lapvar": 9.195958455377777,
+   "scenario": "S3",
+   "pair": "pair_05",
+   "method": "DownUp-4x@384",
+   "char_acc": 0.079520697167756,
+   "word_acc": 0.007407407407407418
+  },
+  {
+   "ssim": 0.8200391310473043,
+   "psnr": 22.909914138298877,
+   "lapvar": 129.61166885678873,
+   "scenario": "S3",
+   "pair": "pair_05",
+   "method": "DownUp-4x@full",
+   "char_acc": 0.15958605664488013,
+   "word_acc": 0.022222222222222254
+  },
+  {
+   "ssim": 0.8305433188855597,
+   "psnr": 23.174953116464195,
+   "lapvar": 324.6306202771504,
+   "scenario": "S3",
+   "pair": "pair_05",
+   "method": "Unsharp-0.5",
+   "char_acc": 0.1824618736383442,
+   "word_acc": 0.011111111111111072
+  },
+  {
+   "ssim": 0.8335991357942807,
+   "psnr": 23.184652072766113,
+   "lapvar": 531.5621083053605,
+   "scenario": "S3",
+   "pair": "pair_05",
+   "method": "Unsharp-1.2",
+   "char_acc": 0.184640522875817,
+   "word_acc": 0.01851851851851849
+  },
+  {
+   "scenario": "S3",
+   "pair": "pair_05",
+   "method": "Chance",
+   "char_acc": 0.1800381263616558,
+   "word_acc": 0.0,
+   "ref_len": 1836
+  },
+  {
+   "ssim": 0.870170135892365,
+   "psnr": 28.244666875113108,
+   "lapvar": 157.74304694058893,
+   "scenario": "S3",
+   "pair": "pair_06",
+   "method": "Input",
+   "char_acc": 0.09090909090909094,
+   "word_acc": 0.0
+  },
+  {
+   "ssim": 0.7815419309587648,
+   "psnr": 24.81409006893927,
+   "lapvar": 7.828867591814036,
+   "scenario": "S3",
+   "pair": "pair_06",
+   "method": "DownUp-4x@384",
+   "char_acc": 0.0051948051948051965,
+   "word_acc": 0.0
+  },
+  {
+   "ssim": 0.8630053418029087,
+   "psnr": 27.913821267456246,
+   "lapvar": 107.65565988079955,
+   "scenario": "S3",
+   "pair": "pair_06",
+   "method": "DownUp-4x@full",
+   "char_acc": 0.051948051948051965,
+   "word_acc": 0.0
+  },
+  {
+   "ssim": 0.8715686929479877,
+   "psnr": 28.305665347766393,
+   "lapvar": 231.49430320287743,
+   "scenario": "S3",
+   "pair": "pair_06",
+   "method": "Unsharp-0.5",
+   "char_acc": 0.10129870129870133,
+   "word_acc": 0.0
+  },
+  {
+   "ssim": 0.8720452485530178,
+   "psnr": 28.287402866198384,
+   "lapvar": 356.7031147007106,
+   "scenario": "S3",
+   "pair": "pair_06",
+   "method": "Unsharp-1.2",
+   "char_acc": 0.10649350649350653,
+   "word_acc": 0.0
+  },
+  {
+   "scenario": "S3",
+   "pair": "pair_06",
+   "method": "Chance",
+   "char_acc": 0.20441558441558438,
+   "word_acc": 0.0,
+   "ref_len": 385
+  },
+  {
+   "ssim": 0.8748859226950491,
+   "psnr": 27.6233887532581,
+   "lapvar": 169.72933906316757,
+   "scenario": "S3",
+   "pair": "pair_07",
+   "method": "Input",
+   "char_acc": 0.048192771084337394,
+   "word_acc": 0.0
+  },
+  {
+   "ssim": 0.7897510450583816,
+   "psnr": 24.263003662769545,
+   "lapvar": 9.026046752282937,
+   "scenario": "S3",
+   "pair": "pair_07",
+   "method": "DownUp-4x@384",
+   "char_acc": 0.014457831325301207,
+   "word_acc": 0.0
+  },
+  {
+   "ssim": 0.8682143693576065,
+   "psnr": 27.32154123530185,
+   "lapvar": 117.79481975196137,
+   "scenario": "S3",
+   "pair": "pair_07",
+   "method": "DownUp-4x@full",
+   "char_acc": 0.06024096385542166,
+   "word_acc": 0.0
+  },
+  {
+   "ssim": 0.8760534151379836,
+   "psnr": 27.686567326675323,
+   "lapvar": 245.83361250345794,
+   "scenario": "S3",
+   "pair": "pair_07",
+   "method": "Unsharp-0.5",
+   "char_acc": 0.04578313253012045,
+   "word_acc": 0.0
+  },
+  {
+   "ssim": 0.8762818742189121,
+   "psnr": 27.6787160506013,
+   "lapvar": 376.15758190511,
+   "scenario": "S3",
+   "pair": "pair_07",
+   "method": "Unsharp-1.2",
+   "char_acc": 0.055421686746988,
+   "word_acc": 0.0
+  },
+  {
+   "scenario": "S3",
+   "pair": "pair_07",
+   "method": "Chance",
+   "char_acc": 0.19578313253012047,
+   "word_acc": 0.0,
+   "ref_len": 415
+  },
+  {
+   "ssim": 0.8879925788063451,
+   "psnr": 26.635623301083484,
+   "lapvar": 143.42978266127304,
+   "scenario": "S3",
+   "pair": "pair_08",
+   "method": "Input",
+   "char_acc": 0.09183673469387754,
+   "word_acc": 0.0
+  },
+  {
+   "ssim": 0.813015068388364,
+   "psnr": 23.969167715163337,
+   "lapvar": 8.66656483544244,
+   "scenario": "S3",
+   "pair": "pair_08",
+   "method": "DownUp-4x@384",
+   "char_acc": 0.010204081632653073,
+   "word_acc": 0.0
+  },
+  {
+   "ssim": 0.8842091102965152,
+   "psnr": 26.530079793167243,
+   "lapvar": 107.74001416313052,
+   "scenario": "S3",
+   "pair": "pair_08",
+   "method": "DownUp-4x@full",
+   "char_acc": 0.07482993197278909,
+   "word_acc": 0.011904761904761862
+  },
+  {
+   "ssim": 0.8884610195054133,
+   "psnr": 26.65140679261926,
+   "lapvar": 198.9407075320422,
+   "scenario": "S3",
+   "pair": "pair_08",
+   "method": "Unsharp-0.5",
+   "char_acc": 0.09863945578231292,
+   "word_acc": 0.011904761904761862
+  },
+  {
+   "ssim": 0.8880919825173866,
+   "psnr": 26.61763992923417,
+   "lapvar": 294.8173960285623,
+   "scenario": "S3",
+   "pair": "pair_08",
+   "method": "Unsharp-1.2",
+   "char_acc": 0.09183673469387754,
+   "word_acc": 0.0
+  },
+  {
+   "scenario": "S3",
+   "pair": "pair_08",
+   "method": "Chance",
+   "char_acc": 0.22721088435374154,
+   "word_acc": 0.0,
+   "ref_len": 294
+  },
+  {
+   "ssim": 0.8828703516259704,
+   "psnr": 26.22290927447374,
+   "lapvar": 193.08669979363262,
+   "scenario": "S3",
+   "pair": "pair_09",
+   "method": "Input",
+   "char_acc": 0.07560137457044669,
+   "word_acc": 0.0
+  },
+  {
+   "ssim": 0.8127163161860372,
+   "psnr": 23.81627937433414,
+   "lapvar": 8.302113850807983,
+   "scenario": "S3",
+   "pair": "pair_09",
+   "method": "DownUp-4x@384",
+   "char_acc": 0.013745704467353903,
+   "word_acc": 0.0
+  },
+  {
+   "ssim": 0.876068038564715,
+   "psnr": 25.977794094314465,
+   "lapvar": 123.1422116233864,
+   "scenario": "S3",
+   "pair": "pair_09",
+   "method": "DownUp-4x@full",
+   "char_acc": 0.054982817869415834,
+   "word_acc": 0.0
+  },
+  {
+   "ssim": 0.883029269464035,
+   "psnr": 26.22310630777516,
+   "lapvar": 290.9833568904756,
+   "scenario": "S3",
+   "pair": "pair_09",
+   "method": "Unsharp-0.5",
+   "char_acc": 0.09965635738831613,
+   "word_acc": 0.0
+  },
+  {
+   "ssim": 0.8818762532380331,
+   "psnr": 26.139190066640285,
+   "lapvar": 461.49253226806314,
+   "scenario": "S3",
+   "pair": "pair_09",
+   "method": "Unsharp-1.2",
+   "char_acc": 0.09621993127147765,
+   "word_acc": 0.0
+  },
+  {
+   "scenario": "S3",
+   "pair": "pair_09",
+   "method": "Chance",
+   "char_acc": 0.22920962199312717,
+   "word_acc": 0.0,
+   "ref_len": 291
+  },
+  {
+   "ssim": 0.8785790371793138,
+   "psnr": 26.61228453891988,
+   "lapvar": 178.2170308281978,
+   "scenario": "S3",
+   "pair": "pair_10",
+   "method": "Input",
+   "char_acc": 0.18596491228070178,
+   "word_acc": 0.0
+  },
+  {
+   "ssim": 0.8088122159864571,
+   "psnr": 24.05136364372812,
+   "lapvar": 8.299606321974554,
+   "scenario": "S3",
+   "pair": "pair_10",
+   "method": "DownUp-4x@384",
+   "char_acc": 0.04561403508771933,
+   "word_acc": 0.0
+  },
+  {
+   "ssim": 0.8722174599746915,
+   "psnr": 26.362574561796123,
+   "lapvar": 118.39059446213975,
+   "scenario": "S3",
+   "pair": "pair_10",
+   "method": "DownUp-4x@full",
+   "char_acc": 0.18947368421052635,
+   "word_acc": 0.0
+  },
+  {
+   "ssim": 0.8788343133058819,
+   "psnr": 26.6411923768224,
+   "lapvar": 265.27976478470686,
+   "scenario": "S3",
+   "pair": "pair_10",
+   "method": "Unsharp-0.5",
+   "char_acc": 0.16491228070175434,
+   "word_acc": 0.0
+  },
+  {
+   "ssim": 0.877863968150676,
+   "psnr": 26.59997278254147,
+   "lapvar": 418.68376659591576,
+   "scenario": "S3",
+   "pair": "pair_10",
+   "method": "Unsharp-1.2",
+   "char_acc": 0.16140350877192977,
+   "word_acc": 0.0
+  },
+  {
+   "scenario": "S3",
+   "pair": "pair_10",
+   "method": "Chance",
+   "char_acc": 0.23157894736842105,
+   "word_acc": 0.0,
+   "ref_len": 285
+  },
+  {
+   "ssim": 0.8794955212463645,
+   "psnr": 28.49486074629614,
+   "lapvar": 163.6758778889716,
+   "scenario": "S3",
+   "pair": "pair_11",
+   "method": "Input",
+   "char_acc": 0.032994923857868064,
+   "word_acc": 0.0
+  },
+  {
+   "ssim": 0.7985437393155135,
+   "psnr": 24.928018863597337,
+   "lapvar": 8.015385944370388,
+   "scenario": "S3",
+   "pair": "pair_11",
+   "method": "DownUp-4x@384",
+   "char_acc": 0.0025380710659898,
+   "word_acc": 0.0
+  },
+  {
+   "ssim": 0.8728248900695409,
+   "psnr": 28.163231832256635,
+   "lapvar": 112.22529601986109,
+   "scenario": "S3",
+   "pair": "pair_11",
+   "method": "DownUp-4x@full",
+   "char_acc": 0.017766497461928932,
+   "word_acc": 0.0
+  },
+  {
+   "ssim": 0.880732102390551,
+   "psnr": 28.55628935263825,
+   "lapvar": 237.16417948402355,
+   "scenario": "S3",
+   "pair": "pair_11",
+   "method": "Unsharp-0.5",
+   "char_acc": 0.08121827411167515,
+   "word_acc": 0.0
+  },
+  {
+   "ssim": 0.8810926733097871,
+   "psnr": 28.53458964164062,
+   "lapvar": 361.8891092898945,
+   "scenario": "S3",
+   "pair": "pair_11",
+   "method": "Unsharp-1.2",
+   "char_acc": 0.032994923857868064,
+   "word_acc": 0.0
+  },
+  {
+   "scenario": "S3",
+   "pair": "pair_11",
+   "method": "Chance",
+   "char_acc": 0.19911167512690356,
+   "word_acc": 0.0,
+   "ref_len": 394
+  },
+  {
+   "ssim": 0.8601924599881694,
+   "psnr": 28.402183424073844,
+   "lapvar": 262.4048990133063,
+   "scenario": "S4",
+   "pair": "pair_01",
+   "method": "Input",
+   "char_acc": 0.0712401055408971,
+   "word_acc": 0.0
+  },
+  {
+   "ssim": 0.744221963515457,
+   "psnr": 24.117910437344623,
+   "lapvar": 10.014780678682857,
+   "scenario": "S4",
+   "pair": "pair_01",
+   "method": "DownUp-4x@384",
+   "char_acc": 0.02638522427440637,
+   "word_acc": 0.0
+  },
+  {
+   "ssim": 0.8497135773922844,
+   "psnr": 28.014182915834702,
+   "lapvar": 164.7253697166582,
+   "scenario": "S4",
+   "pair": "pair_01",
+   "method": "DownUp-4x@full",
+   "char_acc": 0.1029023746701847,
+   "word_acc": 0.0
+  },
+  {
+   "ssim": 0.85846546800405,
+   "psnr": 28.316089695065394,
+   "lapvar": 384.181853156304,
+   "scenario": "S4",
+   "pair": "pair_01",
+   "method": "Unsharp-0.5",
+   "char_acc": 0.0554089709762533,
+   "word_acc": 0.0
+  },
+  {
+   "ssim": 0.8537469373682135,
+   "psnr": 28.015634254266008,
+   "lapvar": 596.7573382581016,
+   "scenario": "S4",
+   "pair": "pair_01",
+   "method": "Unsharp-1.2",
+   "char_acc": 0.08179419525065967,
+   "word_acc": 0.0
+  },
+  {
+   "scenario": "S4",
+   "pair": "pair_01",
+   "method": "Chance",
+   "char_acc": 0.2085751978891821,
+   "word_acc": 0.0,
+   "ref_len": 379
+  },
+  {
+   "ssim": 0.8902302064089401,
+   "psnr": 28.392458939244854,
+   "lapvar": 407.0703002425275,
+   "scenario": "S4",
+   "pair": "pair_02",
+   "method": "Input",
+   "char_acc": 0.06912442396313367,
+   "word_acc": 0.0
+  },
+  {
+   "ssim": 0.7696764204203761,
+   "psnr": 23.604398839975794,
+   "lapvar": 10.202153517942255,
+   "scenario": "S4",
+   "pair": "pair_02",
+   "method": "DownUp-4x@384",
+   "char_acc": 0.025345622119815614,
+   "word_acc": 0.0
+  },
+  {
+   "ssim": 0.8749747405497496,
+   "psnr": 27.3551820509156,
+   "lapvar": 229.2086339754363,
+   "scenario": "S4",
+   "pair": "pair_02",
+   "method": "DownUp-4x@full",
+   "char_acc": 0.062211981566820285,
+   "word_acc": 0.009090909090909038
+  },
+  {
+   "ssim": 0.8886392974475475,
+   "psnr": 28.275055365031175,
+   "lapvar": 626.6236740095903,
+   "scenario": "S4",
+   "pair": "pair_02",
+   "method": "Unsharp-0.5",
+   "char_acc": 0.07834101382488479,
+   "word_acc": 0.009090909090909038
+  },
+  {
+   "ssim": 0.8835033843193001,
+   "psnr": 27.772771168844855,
+   "lapvar": 999.2945824711477,
+   "scenario": "S4",
+   "pair": "pair_02",
+   "method": "Unsharp-1.2",
+   "char_acc": 0.04608294930875578,
+   "word_acc": 0.0
+  },
+  {
+   "scenario": "S4",
+   "pair": "pair_02",
+   "method": "Chance",
+   "char_acc": 0.19711981566820275,
+   "word_acc": 0.0,
+   "ref_len": 434
+  },
+  {
+   "ssim": 0.8594786284451976,
+   "psnr": 25.94997124299666,
+   "lapvar": 481.07256525690264,
+   "scenario": "S4",
+   "pair": "pair_03",
+   "method": "Input",
+   "char_acc": 0.18518518518518523,
+   "word_acc": 0.0
+  },
+  {
+   "ssim": 0.7458343901354271,
+   "psnr": 22.68789145110911,
+   "lapvar": 9.738154082015777,
+   "scenario": "S4",
+   "pair": "pair_03",
+   "method": "DownUp-4x@384",
+   "char_acc": 0.010101010101010055,
+   "word_acc": 0.0
+  },
+  {
+   "ssim": 0.8411115131364075,
+   "psnr": 25.221767066166617,
+   "lapvar": 261.1613865699359,
+   "scenario": "S4",
+   "pair": "pair_03",
+   "method": "DownUp-4x@full",
+   "char_acc": 0.13468013468013473,
+   "word_acc": 0.0
+  },
+  {
+   "ssim": 0.8567712199965357,
+   "psnr": 25.86190991450558,
+   "lapvar": 752.0417528369516,
+   "scenario": "S4",
+   "pair": "pair_03",
+   "method": "Unsharp-0.5",
+   "char_acc": 0.1717171717171717,
+   "word_acc": 0.0
+  },
+  {
+   "ssim": 0.8490892900859861,
+   "psnr": 25.513081862760146,
+   "lapvar": 1212.6283009412125,
+   "scenario": "S4",
+   "pair": "pair_03",
+   "method": "Unsharp-1.2",
+   "char_acc": 0.202020202020202,
+   "word_acc": 0.0
+  },
+  {
+   "scenario": "S4",
+   "pair": "pair_03",
+   "method": "Chance",
+   "char_acc": 0.23063973063973067,
+   "word_acc": 0.0,
+   "ref_len": 297
+  },
+  {
+   "ssim": 0.8603601497810565,
+   "psnr": 26.07020686975426,
+   "lapvar": 448.2786022608634,
+   "scenario": "S4",
+   "pair": "pair_04",
+   "method": "Input",
+   "char_acc": 0.18707482993197277,
+   "word_acc": 0.0
+  },
+  {
+   "ssim": 0.7570639465610559,
+   "psnr": 22.932353299233107,
+   "lapvar": 9.21286519158942,
+   "scenario": "S4",
+   "pair": "pair_04",
+   "method": "DownUp-4x@384",
+   "char_acc": 0.006802721088435382,
+   "word_acc": 0.0
+  },
+  {
+   "ssim": 0.8430564891235774,
+   "psnr": 25.306607706293143,
+   "lapvar": 248.19743793447398,
+   "scenario": "S4",
+   "pair": "pair_04",
+   "method": "DownUp-4x@full",
+   "char_acc": 0.1802721088435374,
+   "word_acc": 0.0
+  },
+  {
+   "ssim": 0.8577071759540364,
+   "psnr": 25.977896891369486,
+   "lapvar": 698.4681146049406,
+   "scenario": "S4",
+   "pair": "pair_04",
+   "method": "Unsharp-0.5",
+   "char_acc": 0.173469387755102,
+   "word_acc": 0.0
+  },
+  {
+   "ssim": 0.8502990336050384,
+   "psnr": 25.622008204353584,
+   "lapvar": 1130.4583969871358,
+   "scenario": "S4",
+   "pair": "pair_04",
+   "method": "Unsharp-1.2",
+   "char_acc": 0.18367346938775508,
+   "word_acc": 0.0
+  },
+  {
+   "scenario": "S4",
+   "pair": "pair_04",
+   "method": "Chance",
+   "char_acc": 0.22159863945578234,
+   "word_acc": 0.0,
+   "ref_len": 294
+  },
+  {
+   "ssim": 0.8488671150227225,
+   "psnr": 23.431466544845772,
+   "lapvar": 485.4237467148859,
+   "scenario": "S4",
+   "pair": "pair_05",
+   "method": "Input",
+   "char_acc": 0.19880174291939,
+   "word_acc": 0.025925925925925908
+  },
+  {
+   "ssim": 0.7228302475294696,
+   "psnr": 21.00883097411422,
+   "lapvar": 11.245803832774982,
+   "scenario": "S4",
+   "pair": "pair_05",
+   "method": "DownUp-4x@384",
+   "char_acc": 0.079520697167756,
+   "word_acc": 0.0037037037037036535
+  },
+  {
+   "ssim": 0.836267827136119,
+   "psnr": 23.019531138101836,
+   "lapvar": 241.417602488978,
+   "scenario": "S4",
+   "pair": "pair_05",
+   "method": "DownUp-4x@full",
+   "char_acc": 0.17647058823529416,
+   "word_acc": 0.01851851851851849
+  },
+  {
+   "ssim": 0.8473484525494508,
+   "psnr": 23.28114050385929,
+   "lapvar": 790.5511423465019,
+   "scenario": "S4",
+   "pair": "pair_05",
+   "method": "Unsharp-0.5",
+   "char_acc": 0.19498910675381265,
+   "word_acc": 0.01851851851851849
+  },
+  {
+   "ssim": 0.8423861508346285,
+   "psnr": 22.902335115851933,
+   "lapvar": 1350.400853439519,
+   "scenario": "S4",
+   "pair": "pair_05",
+   "method": "Unsharp-1.2",
+   "char_acc": 0.20043572984749458,
+   "word_acc": 0.01851851851851849
+  },
+  {
+   "scenario": "S4",
+   "pair": "pair_05",
+   "method": "Chance",
+   "char_acc": 0.1795479302832244,
+   "word_acc": 0.0,
+   "ref_len": 1836
+  },
+  {
+   "ssim": 0.902098499085267,
+   "psnr": 29.890239997352815,
+   "lapvar": 384.7877654675137,
+   "scenario": "S4",
+   "pair": "pair_06",
+   "method": "Input",
+   "char_acc": 0.07792207792207795,
+   "word_acc": 0.0
+  },
+  {
+   "ssim": 0.7788157937267899,
+   "psnr": 24.496022956517976,
+   "lapvar": 9.23016357411527,
+   "scenario": "S4",
+   "pair": "pair_06",
+   "method": "DownUp-4x@384",
+   "char_acc": 0.010389610389610393,
+   "word_acc": 0.0
+  },
+  {
+   "ssim": 0.8841521206405032,
+   "psnr": 28.347723854291715,
+   "lapvar": 209.3549854388822,
+   "scenario": "S4",
+   "pair": "pair_06",
+   "method": "DownUp-4x@full",
+   "char_acc": 0.08831168831168834,
+   "word_acc": 0.0
+  },
+  {
+   "ssim": 0.9002085118406051,
+   "psnr": 29.725340622273105,
+   "lapvar": 600.8020375432808,
+   "scenario": "S4",
+   "pair": "pair_06",
+   "method": "Unsharp-0.5",
+   "char_acc": 0.06753246753246755,
+   "word_acc": 0.0
+  },
+  {
+   "ssim": 0.894063024967887,
+   "psnr": 28.99941431575708,
+   "lapvar": 980.0505625394225,
+   "scenario": "S4",
+   "pair": "pair_06",
+   "method": "Unsharp-1.2",
+   "char_acc": 0.09090909090909094,
+   "word_acc": 0.0
+  },
+  {
+   "scenario": "S4",
+   "pair": "pair_06",
+   "method": "Chance",
+   "char_acc": 0.20714285714285713,
+   "word_acc": 0.0,
+   "ref_len": 385
+  },
+  {
+   "ssim": 0.9047524873278943,
+   "psnr": 29.16027525042231,
+   "lapvar": 385.3171329315907,
+   "scenario": "S4",
+   "pair": "pair_07",
+   "method": "Input",
+   "char_acc": 0.09397590361445785,
+   "word_acc": 0.0
+  },
+  {
+   "ssim": 0.7881597767085503,
+   "psnr": 23.99855237944182,
+   "lapvar": 10.674367267224525,
+   "scenario": "S4",
+   "pair": "pair_07",
+   "method": "DownUp-4x@384",
+   "char_acc": 0.0,
+   "word_acc": 0.0
+  },
+  {
+   "ssim": 0.8881365017043308,
+   "psnr": 27.917385878352903,
+   "lapvar": 213.08523466179346,
+   "scenario": "S4",
+   "pair": "pair_07",
+   "method": "DownUp-4x@full",
+   "char_acc": 0.08915662650602407,
+   "word_acc": 0.0
+  },
+  {
+   "ssim": 0.9025010210796138,
+   "psnr": 29.021971805302154,
+   "lapvar": 595.8925927939257,
+   "scenario": "S4",
+   "pair": "pair_07",
+   "method": "Unsharp-0.5",
+   "char_acc": 0.09879518072289162,
+   "word_acc": 0.0
+  },
+  {
+   "ssim": 0.8964142674318487,
+   "psnr": 28.456621647441306,
+   "lapvar": 943.2367294107613,
+   "scenario": "S4",
+   "pair": "pair_07",
+   "method": "Unsharp-1.2",
+   "char_acc": 0.12289156626506026,
+   "word_acc": 0.0
+  },
+  {
+   "scenario": "S4",
+   "pair": "pair_07",
+   "method": "Chance",
+   "char_acc": 0.19795180722891564,
+   "word_acc": 0.0,
+   "ref_len": 415
+  },
+  {
+   "ssim": 0.9124682768105475,
+   "psnr": 27.851908432498544,
+   "lapvar": 327.0514245064049,
+   "scenario": "S4",
+   "pair": "pair_08",
+   "method": "Input",
+   "char_acc": 0.1802721088435374,
+   "word_acc": 0.0
+  },
+  {
+   "ssim": 0.8095220320842864,
+   "psnr": 23.788944212433844,
+   "lapvar": 10.062499912973083,
+   "scenario": "S4",
+   "pair": "pair_08",
+   "method": "DownUp-4x@384",
+   "char_acc": 0.013605442176870763,
+   "word_acc": 0.0
+  },
+  {
+   "ssim": 0.9043558374995994,
+   "psnr": 27.43503362954772,
+   "lapvar": 202.1071534947388,
+   "scenario": "S4",
+   "pair": "pair_08",
+   "method": "DownUp-4x@full",
+   "char_acc": 0.1428571428571429,
+   "word_acc": 0.0
+  },
+  {
+   "ssim": 0.9098936987093482,
+   "psnr": 27.74906690006867,
+   "lapvar": 484.1016968560871,
+   "scenario": "S4",
+   "pair": "pair_08",
+   "method": "Unsharp-0.5",
+   "char_acc": 0.18367346938775508,
+   "word_acc": 0.011904761904761862
+  },
+  {
+   "ssim": 0.9039844588339566,
+   "psnr": 27.401156222290094,
+   "lapvar": 757.7726204925112,
+   "scenario": "S4",
+   "pair": "pair_08",
+   "method": "Unsharp-1.2",
+   "char_acc": 0.15306122448979587,
+   "word_acc": 0.0
+  },
+  {
+   "scenario": "S4",
+   "pair": "pair_08",
+   "method": "Chance",
+   "char_acc": 0.22142857142857145,
+   "word_acc": 0.0,
+   "ref_len": 294
+  },
+  {
+   "ssim": 0.9070912609759404,
+   "psnr": 27.333491436171578,
+   "lapvar": 386.14222144076825,
+   "scenario": "S4",
+   "pair": "pair_09",
+   "method": "Input",
+   "char_acc": 0.21305841924398627,
+   "word_acc": 0.0117647058823529
+  },
+  {
+   "ssim": 0.8100423780401056,
+   "psnr": 23.61209627103756,
+   "lapvar": 9.612258910899982,
+   "scenario": "S4",
+   "pair": "pair_09",
+   "method": "DownUp-4x@384",
+   "char_acc": 0.0068728522336769515,
+   "word_acc": 0.0
+  },
+  {
+   "ssim": 0.8919891142760459,
+   "psnr": 26.494929703957876,
+   "lapvar": 207.71693368977867,
+   "scenario": "S4",
+   "pair": "pair_09",
+   "method": "DownUp-4x@full",
+   "char_acc": 0.17182130584192434,
+   "word_acc": 0.0
+  },
+  {
+   "ssim": 0.9042873080577338,
+   "psnr": 27.23389083963038,
+   "lapvar": 601.8579602712354,
+   "scenario": "S4",
+   "pair": "pair_09",
+   "method": "Unsharp-0.5",
+   "char_acc": 0.19587628865979378,
+   "word_acc": 0.0
+  },
+  {
+   "ssim": 0.8976442424622625,
+   "psnr": 26.834640252548144,
+   "lapvar": 969.8173106904657,
+   "scenario": "S4",
+   "pair": "pair_09",
+   "method": "Unsharp-1.2",
+   "char_acc": 0.21649484536082475,
+   "word_acc": 0.0
+  },
+  {
+   "scenario": "S4",
+   "pair": "pair_09",
+   "method": "Chance",
+   "char_acc": 0.23402061855670103,
+   "word_acc": 0.0,
+   "ref_len": 291
+  },
+  {
+   "ssim": 0.9025209396201777,
+   "psnr": 27.71857656470704,
+   "lapvar": 387.20718888480525,
+   "scenario": "S4",
+   "pair": "pair_10",
+   "method": "Input",
+   "char_acc": 0.1719298245614035,
+   "word_acc": 0.0
+  },
+  {
+   "ssim": 0.8036944530786446,
+   "psnr": 23.76848020612161,
+   "lapvar": 9.994059243860343,
+   "scenario": "S4",
+   "pair": "pair_10",
+   "method": "DownUp-4x@384",
+   "char_acc": 0.04561403508771933,
+   "word_acc": 0.0
+  },
+  {
+   "ssim": 0.8882385898447562,
+   "psnr": 26.797251578741417,
+   "lapvar": 213.83979796429367,
+   "scenario": "S4",
+   "pair": "pair_10",
+   "method": "DownUp-4x@full",
+   "char_acc": 0.20350877192982453,
+   "word_acc": 0.011904761904761862
+  },
+  {
+   "ssim": 0.8997104981447064,
+   "psnr": 27.606250495748586,
+   "lapvar": 604.4671985804778,
+   "scenario": "S4",
+   "pair": "pair_10",
+   "method": "Unsharp-0.5",
+   "char_acc": 0.1824561403508772,
+   "word_acc": 0.011904761904761862
+  },
+  {
+   "ssim": 0.8932971876286437,
+   "psnr": 27.18658361172137,
+   "lapvar": 951.3319497042231,
+   "scenario": "S4",
+   "pair": "pair_10",
+   "method": "Unsharp-1.2",
+   "char_acc": 0.20350877192982453,
+   "word_acc": 0.011904761904761862
+  },
+  {
+   "scenario": "S4",
+   "pair": "pair_10",
+   "method": "Chance",
+   "char_acc": 0.23947368421052634,
+   "word_acc": 0.0,
+   "ref_len": 285
+  },
+  {
+   "ssim": 0.9043626384633043,
+   "psnr": 29.830598156275773,
+   "lapvar": 333.92647798977674,
+   "scenario": "S4",
+   "pair": "pair_11",
+   "method": "Input",
+   "char_acc": 0.0076142131979695105,
+   "word_acc": 0.0
+  },
+  {
+   "ssim": 0.7960652849284611,
+   "psnr": 24.7133775122369,
+   "lapvar": 8.97744241416351,
+   "scenario": "S4",
+   "pair": "pair_11",
+   "method": "DownUp-4x@384",
+   "char_acc": 0.0025380710659898,
+   "word_acc": 0.0
+  },
+  {
+   "ssim": 0.8908012877065087,
+   "psnr": 28.731590649344092,
+   "lapvar": 189.45955401617616,
+   "scenario": "S4",
+   "pair": "pair_11",
+   "method": "DownUp-4x@full",
+   "char_acc": 0.017766497461928932,
+   "word_acc": 0.0
+  },
+  {
+   "ssim": 0.9023739245452487,
+   "psnr": 29.709794358030173,
+   "lapvar": 511.45999635442996,
+   "scenario": "S4",
+   "pair": "pair_11",
+   "method": "Unsharp-0.5",
+   "char_acc": 0.08883248730964466,
+   "word_acc": 0.0
+  },
+  {
+   "ssim": 0.8970167759477166,
+   "psnr": 29.16439602168188,
+   "lapvar": 814.9686885923147,
+   "scenario": "S4",
+   "pair": "pair_11",
+   "method": "Unsharp-1.2",
+   "char_acc": 0.10152284263959388,
+   "word_acc": 0.0
+  },
+  {
+   "scenario": "S4",
+   "pair": "pair_11",
+   "method": "Chance",
+   "char_acc": 0.20964467005076143,
+   "word_acc": 0.0,
+   "ref_len": 394
+  },
+  {
+   "ssim": 0.5806690996263053,
+   "psnr": 9.57804198819576,
+   "lapvar": 15.984903780019115,
+   "scenario": "S5",
+   "pair": "pair_01",
+   "method": "Input",
+   "char_acc": 0.10817941952506593,
+   "word_acc": 0.0
+  },
+  {
+   "ssim": 0.5214086280069185,
+   "psnr": 9.533127103041396,
+   "lapvar": 3.652918497074602,
+   "scenario": "S5",
+   "pair": "pair_01",
+   "method": "DownUp-4x@384",
+   "char_acc": 0.07651715039577833,
+   "word_acc": 0.009803921568627416
+  },
+  {
+   "ssim": 0.5787461418845672,
+   "psnr": 9.57882127791281,
+   "lapvar": 15.2789203920919,
+   "scenario": "S5",
+   "pair": "pair_01",
+   "method": "DownUp-4x@full",
+   "char_acc": 0.1029023746701847,
+   "word_acc": 0.0
+  },
+  {
+   "ssim": 0.583429281542535,
+   "psnr": 9.580957582745105,
+   "lapvar": 20.261301542321842,
+   "scenario": "S5",
+   "pair": "pair_01",
+   "method": "Unsharp-0.5",
+   "char_acc": 0.08443271767810023,
+   "word_acc": 0.0
+  },
+  {
+   "ssim": 0.5860827656948707,
+   "psnr": 9.583400901102356,
+   "lapvar": 25.176783147552566,
+   "scenario": "S5",
+   "pair": "pair_01",
+   "method": "Unsharp-1.2",
+   "char_acc": 0.10026385224274403,
+   "word_acc": 0.0
+  },
+  {
+   "scenario": "S5",
+   "pair": "pair_01",
+   "method": "Chance",
+   "char_acc": 0.20672823218997363,
+   "word_acc": 0.0,
+   "ref_len": 379
+  },
+  {
+   "ssim": 0.6117455645686284,
+   "psnr": 9.823868772798614,
+   "lapvar": 17.809452198419923,
+   "scenario": "S5",
+   "pair": "pair_02",
+   "method": "Input",
+   "char_acc": 0.02304147465437789,
+   "word_acc": 0.0
+  },
+  {
+   "ssim": 0.5554131448273414,
+   "psnr": 9.767917692667204,
+   "lapvar": 3.6168670654038166,
+   "scenario": "S5",
+   "pair": "pair_02",
+   "method": "DownUp-4x@384",
+   "char_acc": 0.0,
+   "word_acc": 0.0
+  },
+  {
+   "ssim": 0.6104083020953418,
+   "psnr": 9.824244905872167,
+   "lapvar": 16.99441462092929,
+   "scenario": "S5",
+   "pair": "pair_02",
+   "method": "DownUp-4x@full",
+   "char_acc": 0.06912442396313367,
+   "word_acc": 0.0
+  },
+  {
+   "ssim": 0.6142120164983094,
+   "psnr": 9.827430272824257,
+   "lapvar": 22.571593031287193,
+   "scenario": "S5",
+   "pair": "pair_02",
+   "method": "Unsharp-0.5",
+   "char_acc": 0.055299539170506895,
+   "word_acc": 0.009090909090909038
+  },
+  {
+   "ssim": 0.6166736429577369,
+   "psnr": 9.830602700815854,
+   "lapvar": 28.12207884217302,
+   "scenario": "S5",
+   "pair": "pair_02",
+   "method": "Unsharp-1.2",
+   "char_acc": 0.05990783410138245,
+   "word_acc": 0.009090909090909038
+  },
+  {
+   "scenario": "S5",
+   "pair": "pair_02",
+   "method": "Chance",
+   "char_acc": 0.18928571428571433,
+   "word_acc": 0.0,
+   "ref_len": 434
+  },
+  {
+   "ssim": 0.6157144929937786,
+   "psnr": 9.442009164233049,
+   "lapvar": 21.244491533660845,
+   "scenario": "S5",
+   "pair": "pair_03",
+   "method": "Input",
+   "char_acc": 0.26262626262626265,
+   "word_acc": 0.04705882352941182
+  },
+  {
+   "ssim": 0.5599288792567244,
+   "psnr": 9.39483078174586,
+   "lapvar": 3.5667012407340937,
+   "scenario": "S5",
+   "pair": "pair_03",
+   "method": "DownUp-4x@384",
+   "char_acc": 0.0572390572390572,
+   "word_acc": 0.0
+  },
+  {
+   "ssim": 0.6135747446995635,
+   "psnr": 9.442235515863223,
+   "lapvar": 19.874084373211698,
+   "scenario": "S5",
+   "pair": "pair_03",
+   "method": "DownUp-4x@full",
+   "char_acc": 0.23232323232323238,
+   "word_acc": 0.04705882352941182
+  },
+  {
+   "ssim": 0.6182161707543775,
+   "psnr": 9.44593424251019,
+   "lapvar": 26.84303277480001,
+   "scenario": "S5",
+   "pair": "pair_03",
+   "method": "Unsharp-0.5",
+   "char_acc": 0.27609427609427606,
+   "word_acc": 0.07058823529411762
+  },
+  {
+   "ssim": 0.6209983944257356,
+   "psnr": 9.449695602669333,
+   "lapvar": 33.88261915205255,
+   "scenario": "S5",
+   "pair": "pair_03",
+   "method": "Unsharp-1.2",
+   "char_acc": 0.3804713804713805,
+   "word_acc": 0.11764705882352944
+  },
+  {
+   "scenario": "S5",
+   "pair": "pair_03",
+   "method": "Chance",
+   "char_acc": 0.22239057239057236,
+   "word_acc": 0.0,
+   "ref_len": 297
+  },
+  {
+   "ssim": 0.6193869996554271,
+   "psnr": 9.40757775823077,
+   "lapvar": 20.235534510575235,
+   "scenario": "S5",
+   "pair": "pair_04",
+   "method": "Input",
+   "char_acc": 0.2891156462585034,
+   "word_acc": 0.059523809523809534
+  },
+  {
+   "ssim": 0.5672127107102749,
+   "psnr": 9.364388046176789,
+   "lapvar": 3.373692829136012,
+   "scenario": "S5",
+   "pair": "pair_04",
+   "method": "DownUp-4x@384",
+   "char_acc": 0.023809523809523836,
+   "word_acc": 0.0
+  },
+  {
+   "ssim": 0.6171776551439382,
+   "psnr": 9.407681355946071,
+   "lapvar": 19.05309536181286,
+   "scenario": "S5",
+   "pair": "pair_04",
+   "method": "DownUp-4x@full",
+   "char_acc": 0.26190476190476186,
+   "word_acc": 0.0357142857142857
+  },
+  {
+   "ssim": 0.6218313709750034,
+   "psnr": 9.41125037179871,
+   "lapvar": 25.569554493426242,
+   "scenario": "S5",
+   "pair": "pair_04",
+   "method": "Unsharp-0.5",
+   "char_acc": 0.326530612244898,
+   "word_acc": 0.09523809523809523
+  },
+  {
+   "ssim": 0.6245052382581171,
+   "psnr": 9.414797794682329,
+   "lapvar": 32.35213701424396,
+   "scenario": "S5",
+   "pair": "pair_04",
+   "method": "Unsharp-1.2",
+   "char_acc": 0.40816326530612246,
+   "word_acc": 0.15476190476190477
+  },
+  {
+   "scenario": "S5",
+   "pair": "pair_04",
+   "method": "Chance",
+   "char_acc": 0.22976190476190478,
+   "word_acc": 0.0,
+   "ref_len": 294
+  },
+  {
+   "ssim": 0.6076639874706544,
+   "psnr": 8.995025494748626,
+   "lapvar": 20.10496517061256,
+   "scenario": "S5",
+   "pair": "pair_05",
+   "method": "Input",
+   "char_acc": 0.23039215686274506,
+   "word_acc": 0.01851851851851849
+  },
+  {
+   "ssim": 0.5460892682751396,
+   "psnr": 8.938658894421913,
+   "lapvar": 3.845336911475492,
+   "scenario": "S5",
+   "pair": "pair_05",
+   "method": "DownUp-4x@384",
+   "char_acc": 0.08823529411764708,
+   "word_acc": 0.0037037037037036535
+  },
+  {
+   "ssim": 0.6067919744572721,
+   "psnr": 8.995073349865802,
+   "lapvar": 19.197662240825593,
+   "scenario": "S5",
+   "pair": "pair_05",
+   "method": "DownUp-4x@full",
+   "char_acc": 0.23638344226579522,
+   "word_acc": 0.014814814814814836
+  },
+  {
+   "ssim": 0.6098461887914599,
+   "psnr": 8.998070424401396,
+   "lapvar": 25.15541582637364,
+   "scenario": "S5",
+   "pair": "pair_05",
+   "method": "Unsharp-0.5",
+   "char_acc": 0.24891067538126366,
+   "word_acc": 0.0037037037037036535
+  },
+  {
+   "ssim": 0.6119860306021593,
+   "psnr": 9.00003014063879,
+   "lapvar": 30.74466955071936,
+   "scenario": "S5",
+   "pair": "pair_05",
+   "method": "Unsharp-1.2",
+   "char_acc": 0.2587145969498911,
+   "word_acc": 0.01851851851851849
+  },
+  {
+   "scenario": "S5",
+   "pair": "pair_05",
+   "method": "Chance",
+   "char_acc": 0.17984749455337692,
+   "word_acc": 0.0,
+   "ref_len": 1836
+  },
+  {
+   "ssim": 0.6229425559731405,
+   "psnr": 9.863491521946402,
+   "lapvar": 14.278742388278866,
+   "scenario": "S5",
+   "pair": "pair_06",
+   "method": "Input",
+   "char_acc": 0.04935064935064937,
+   "word_acc": 0.0
+  },
+  {
+   "ssim": 0.5671030315515709,
+   "psnr": 9.8223751739437,
+   "lapvar": 3.357940672172439,
+   "scenario": "S5",
+   "pair": "pair_06",
+   "method": "DownUp-4x@384",
+   "char_acc": 0.0051948051948051965,
+   "word_acc": 0.0
+  },
+  {
+   "ssim": 0.6216030332057724,
+   "psnr": 9.864694151845478,
+   "lapvar": 13.722808703780174,
+   "scenario": "S5",
+   "pair": "pair_06",
+   "method": "DownUp-4x@full",
+   "char_acc": 0.036363636363636376,
+   "word_acc": 0.0
+  },
+  {
+   "ssim": 0.6249865144171589,
+   "psnr": 9.866187944198918,
+   "lapvar": 18.104054656190176,
+   "scenario": "S5",
+   "pair": "pair_06",
+   "method": "Unsharp-0.5",
+   "char_acc": 0.07272727272727275,
+   "word_acc": 0.0
+  },
+  {
+   "ssim": 0.6270043112756589,
+   "psnr": 9.868577725297014,
+   "lapvar": 22.48265061897433,
+   "scenario": "S5",
+   "pair": "pair_06",
+   "method": "Unsharp-1.2",
+   "char_acc": 0.06233766233766236,
+   "word_acc": 0.0
+  },
+  {
+   "scenario": "S5",
+   "pair": "pair_06",
+   "method": "Chance",
+   "char_acc": 0.19999999999999996,
+   "word_acc": 0.0,
+   "ref_len": 385
+  },
+  {
+   "ssim": 0.6325607987852011,
+   "psnr": 9.892348048374796,
+   "lapvar": 16.20625812311967,
+   "scenario": "S5",
+   "pair": "pair_07",
+   "method": "Input",
+   "char_acc": 0.03614457831325302,
+   "word_acc": 0.0
+  },
+  {
+   "ssim": 0.5757451646725619,
+   "psnr": 9.830707367039102,
+   "lapvar": 3.8367513016694113,
+   "scenario": "S5",
+   "pair": "pair_07",
+   "method": "DownUp-4x@384",
+   "char_acc": 0.0,
+   "word_acc": 0.0
+  },
+  {
+   "ssim": 0.6314270607647958,
+   "psnr": 9.892746193579788,
+   "lapvar": 15.57698058769003,
+   "scenario": "S5",
+   "pair": "pair_07",
+   "method": "DownUp-4x@full",
+   "char_acc": 0.04337349397590362,
+   "word_acc": 0.0
+  },
+  {
+   "ssim": 0.6344145014949806,
+   "psnr": 9.894883649453964,
+   "lapvar": 20.37155658624963,
+   "scenario": "S5",
+   "pair": "pair_07",
+   "method": "Unsharp-0.5",
+   "char_acc": 0.03855421686746985,
+   "word_acc": 0.0
+  },
+  {
+   "ssim": 0.63626177127095,
+   "psnr": 9.897057170388674,
+   "lapvar": 25.27560931255317,
+   "scenario": "S5",
+   "pair": "pair_07",
+   "method": "Unsharp-1.2",
+   "char_acc": 0.06024096385542166,
+   "word_acc": 0.0
+  },
+  {
+   "scenario": "S5",
+   "pair": "pair_07",
+   "method": "Chance",
+   "char_acc": 0.19674698795180723,
+   "word_acc": 0.0,
+   "ref_len": 415
+  },
+  {
+   "ssim": 0.6769377467351815,
+   "psnr": 9.144387414353977,
+   "lapvar": 20.475011188511008,
+   "scenario": "S5",
+   "pair": "pair_08",
+   "method": "Input",
+   "char_acc": 0.23469387755102045,
+   "word_acc": 0.0357142857142857
+  },
+  {
+   "ssim": 0.6222267396554142,
+   "psnr": 9.097736777617284,
+   "lapvar": 3.701883928539852,
+   "scenario": "S5",
+   "pair": "pair_08",
+   "method": "DownUp-4x@384",
+   "char_acc": 0.15306122448979587,
+   "word_acc": 0.0
+  },
+  {
+   "ssim": 0.6756485680952686,
+   "psnr": 9.144351835976362,
+   "lapvar": 19.378601061697633,
+   "scenario": "S5",
+   "pair": "pair_08",
+   "method": "DownUp-4x@full",
+   "char_acc": 0.22789115646258506,
+   "word_acc": 0.0357142857142857
+  },
+  {
+   "ssim": 0.6789864555599939,
+   "psnr": 9.147236226025043,
+   "lapvar": 25.50186665270788,
+   "scenario": "S5",
+   "pair": "pair_08",
+   "method": "Unsharp-0.5",
+   "char_acc": 0.3299319727891157,
+   "word_acc": 0.08333333333333337
+  },
+  {
+   "ssim": 0.6812893123696429,
+   "psnr": 9.149903997612762,
+   "lapvar": 31.983571340536916,
+   "scenario": "S5",
+   "pair": "pair_08",
+   "method": "Unsharp-1.2",
+   "char_acc": 0.36734693877551017,
+   "word_acc": 0.11904761904761907
+  },
+  {
+   "scenario": "S5",
+   "pair": "pair_08",
+   "method": "Chance",
+   "char_acc": 0.2267006802721089,
+   "word_acc": 0.0,
+   "ref_len": 294
+  },
+  {
+   "ssim": 0.669912060961875,
+   "psnr": 9.26246018200698,
+   "lapvar": 18.745208731852472,
+   "scenario": "S5",
+   "pair": "pair_09",
+   "method": "Input",
+   "char_acc": 0.23711340206185572,
+   "word_acc": 0.03529411764705881
+  },
+  {
+   "ssim": 0.6215085183596694,
+   "psnr": 9.214177964786197,
+   "lapvar": 3.591629028087482,
+   "scenario": "S5",
+   "pair": "pair_09",
+   "method": "DownUp-4x@384",
+   "char_acc": 0.03436426116838487,
+   "word_acc": 0.0
+  },
+  {
+   "ssim": 0.6685390482276569,
+   "psnr": 9.262397154321345,
+   "lapvar": 17.696182245155796,
+   "scenario": "S5",
+   "pair": "pair_09",
+   "method": "DownUp-4x@full",
+   "char_acc": 0.24398625429553267,
+   "word_acc": 0.03529411764705881
+  },
+  {
+   "ssim": 0.6715771518753922,
+   "psnr": 9.265081178312673,
+   "lapvar": 23.660527545932894,
+   "scenario": "S5",
+   "pair": "pair_09",
+   "method": "Unsharp-0.5",
+   "char_acc": 0.27491408934707906,
+   "word_acc": 0.05882352941176472
+  },
+  {
+   "ssim": 0.6733724927550965,
+   "psnr": 9.267347373960806,
+   "lapvar": 29.768117266293203,
+   "scenario": "S5",
+   "pair": "pair_09",
+   "method": "Unsharp-1.2",
+   "char_acc": 0.43986254295532645,
+   "word_acc": 0.21176470588235297
+  },
+  {
+   "scenario": "S5",
+   "pair": "pair_09",
+   "method": "Chance",
+   "char_acc": 0.23161512027491407,
+   "word_acc": 0.0,
+   "ref_len": 291
+  },
+  {
+   "ssim": 0.6674262997830387,
+   "psnr": 9.297447053828996,
+   "lapvar": 17.08832797894461,
+   "scenario": "S5",
+   "pair": "pair_10",
+   "method": "Input",
+   "char_acc": 0.32280701754385965,
+   "word_acc": 0.0714285714285714
+  },
+  {
+   "ssim": 0.6187094742114906,
+   "psnr": 9.244129585592498,
+   "lapvar": 3.590006508760982,
+   "scenario": "S5",
+   "pair": "pair_10",
+   "method": "DownUp-4x@384",
+   "char_acc": 0.024561403508771895,
+   "word_acc": 0.011904761904761862
+  },
+  {
+   "ssim": 0.6657509538150675,
+   "psnr": 9.297037561395518,
+   "lapvar": 16.17214454707896,
+   "scenario": "S5",
+   "pair": "pair_10",
+   "method": "DownUp-4x@full",
+   "char_acc": 0.24912280701754386,
+   "word_acc": 0.059523809523809534
+  },
+  {
+   "ssim": 0.6690344244838993,
+   "psnr": 9.30003461779196,
+   "lapvar": 21.561345340037303,
+   "scenario": "S5",
+   "pair": "pair_10",
+   "method": "Unsharp-0.5",
+   "char_acc": 0.3192982456140351,
+   "word_acc": 0.09523809523809523
+  },
+  {
+   "ssim": 0.670718692736976,
+   "psnr": 9.302345647414194,
+   "lapvar": 27.036025910922845,
+   "scenario": "S5",
+   "pair": "pair_10",
+   "method": "Unsharp-1.2",
+   "char_acc": 0.3789473684210526,
+   "word_acc": 0.1071428571428571
+  },
+  {
+   "scenario": "S5",
+   "pair": "pair_10",
+   "method": "Chance",
+   "char_acc": 0.23947368421052634,
+   "word_acc": 0.0,
+   "ref_len": 285
+  },
+  {
+   "ssim": 0.6441149158599581,
+   "psnr": 9.689490462465626,
+   "lapvar": 14.42122392097695,
+   "scenario": "S5",
+   "pair": "pair_11",
+   "method": "Input",
+   "char_acc": 0.025380710659898442,
+   "word_acc": 0.0
+  },
+  {
+   "ssim": 0.5908518534712843,
+   "psnr": 9.654685880633235,
+   "lapvar": 3.3648630777736077,
+   "scenario": "S5",
+   "pair": "pair_11",
+   "method": "DownUp-4x@384",
+   "char_acc": 0.010152284263959421,
+   "word_acc": 0.0
+  },
+  {
+   "ssim": 0.642909206579924,
+   "psnr": 9.689607918733184,
+   "lapvar": 13.839660569094121,
+   "scenario": "S5",
+   "pair": "pair_11",
+   "method": "DownUp-4x@full",
+   "char_acc": 0.032994923857868064,
+   "word_acc": 0.0
+  },
+  {
+   "ssim": 0.6460574443989758,
+   "psnr": 9.691596621306369,
+   "lapvar": 18.314763375635568,
+   "scenario": "S5",
+   "pair": "pair_11",
+   "method": "Unsharp-0.5",
+   "char_acc": 0.043147208121827374,
+   "word_acc": 0.0
+  },
+  {
+   "ssim": 0.647979826714028,
+   "psnr": 9.693105404174103,
+   "lapvar": 22.731043484036093,
+   "scenario": "S5",
+   "pair": "pair_11",
+   "method": "Unsharp-1.2",
+   "char_acc": 0.035532994923857864,
+   "word_acc": 0.0
+  },
+  {
+   "scenario": "S5",
+   "pair": "pair_11",
+   "method": "Chance",
+   "char_acc": 0.200507614213198,
+   "word_acc": 0.0,
+   "ref_len": 394
+  }
+ ],
+ "summary": {
+  "Input": {
+   "ssim": {
+    "mean": 0.8302408162008605,
+    "std": 0.10544172109752284,
+    "n": 55
+   },
+   "psnr": {
+    "mean": 23.626596499922993,
+    "std": 7.3255885494091615,
+    "n": 55
+   },
+   "lapvar": {
+    "mean": 140.70204115916385,
+    "std": 144.2168937917693,
+    "n": 55
+   },
+   "char_acc": {
+    "mean": 0.1404716852976577,
+    "std": 0.12827752606133716,
+    "n": 55
+   },
+   "word_acc": {
+    "mean": 0.02553608403875783,
+    "std": 0.06231425148002492,
+    "n": 55
+   }
+  },
+  "DownUp-4x@384": {
+   "ssim": {
+    "mean": 0.7388642292338792,
+    "std": 0.08696390588651452,
+    "n": 55
+   },
+   "psnr": {
+    "mean": 20.94984901123973,
+    "std": 5.88387148905048,
+    "n": 55
+   },
+   "lapvar": {
+    "mean": 7.597731235851489,
+    "std": 2.356093100516375,
+    "n": 55
+   },
+   "char_acc": {
+    "mean": 0.02649822626438533,
+    "std": 0.03187639686564796,
+    "n": 55
+   },
+   "word_acc": {
+    "mean": 0.0009334238746003425,
+    "std": 0.0026595868613599623,
+    "n": 55
+   }
+  },
+  "DownUp-4x@full": {
+   "ssim": {
+    "mean": 0.8243286865501833,
+    "std": 0.10316637794352321,
+    "n": 55
+   },
+   "psnr": {
+    "mean": 23.35096239723915,
+    "std": 7.165210973203345,
+    "n": 55
+   },
+   "lapvar": {
+    "mean": 92.1053247933751,
+    "std": 77.0109557736304,
+    "n": 55
+   },
+   "char_acc": {
+    "mean": 0.12758115189949873,
+    "std": 0.10542049327772812,
+    "n": 55
+   },
+   "word_acc": {
+    "mean": 0.01615158460078246,
+    "std": 0.03445207413942322,
+    "n": 55
+   }
+  },
+  "Unsharp-0.5": {
+   "ssim": {
+    "mean": 0.8320485064545501,
+    "std": 0.10548974759344197,
+    "n": 55
+   },
+   "psnr": {
+    "mean": 23.69544273056957,
+    "std": 7.3701143044694,
+    "n": 55
+   },
+   "lapvar": {
+    "mean": 207.41834279276395,
+    "std": 228.17687370175045,
+    "n": 55
+   },
+   "char_acc": {
+    "mean": 0.15576920865248314,
+    "std": 0.14132246944966553,
+    "n": 55
+   },
+   "word_acc": {
+    "mean": 0.035439986830361155,
+    "std": 0.08441763052969277,
+    "n": 55
+   }
+  },
+  "Unsharp-1.2": {
+   "ssim": {
+    "mean": 0.8331251796027662,
+    "std": 0.10537122804592877,
+    "n": 55
+   },
+   "psnr": {
+    "mean": 23.710065971356475,
+    "std": 7.396439957405323,
+    "n": 55
+   },
+   "lapvar": {
+    "mean": 321.1453333325486,
+    "std": 374.70916835657636,
+    "n": 55
+   },
+   "char_acc": {
+    "mean": 0.1739857528963125,
+    "std": 0.1635438992500362,
+    "n": 55
+   },
+   "word_acc": {
+    "mean": 0.04840860862251237,
+    "std": 0.11290516857085922,
+    "n": 55
+   }
+  },
+  "Chance": {
+   "char_acc": {
+    "mean": 0.2119900849232447,
+    "std": 0.018008053244116914,
+    "n": 55
+   },
+   "word_acc": {
+    "mean": 0.0,
+    "std": 0.0,
+    "n": 55
+   }
+  }
+ },
+ "proc": 512,
+ "have_iqa": false
+}

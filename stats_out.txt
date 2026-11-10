@@ -1,0 +1,168 @@
+====================================================================== 
+FULL-RESOLUTION (results.json)
+SIFT-aligned pairs: 34  failed: 21
+SIFT inlier counts on aligned pairs: [2, 3, 3, 4, 4, 4, 4, 4, 4, 5, 6, 6, 6, 6, 6, 7, 7, 7, 7, 8, 8, 8, 8, 9, 9, 10, 10, 11, 12, 12, 12, 13, 19, 22]
+LightGlue inlier counts (P3): [16, 17, 18, 18, 19, 19, 19, 19, 19, 20, 20, 21, 21, 21, 21, 21, 21, 21, 22, 22, 22, 23, 23, 23, 23, 23, 23, 24, 24, 24, 24, 24, 24, 25, 25, 25, 25, 25, 26, 26, 26, 27, 27, 28, 28, 34, 35, 36, 36, 37, 38, 40, 41, 47, 54]
+B2 homography inliers: [3, 5, 5, 5, 5, 6, 6, 6, 6, 6, 7, 7, 7, 8, 8, 8, 9, 9, 9, 9, 10, 10, 10, 10, 10, 10, 17, 21, 21, 21, 22, 23, 24, 24, 24, 24, 25, 26, 29, 29, 31, 36, 36, 36, 37, 39, 46, 47, 52, 58, 63, 68, 75, 88, 117]
+SIFT failures per scenario: {'S1': 1, 'S2': 5, 'S3': 5, 'S4': 3, 'S5': 7}
+
+-- (a) common SIFT-aligned subset (34 pairs) --
+Input                              n=34 SSIM 0.832 [0.802,0.859] PSNR 24.47 LPIPS 0.356 NIQE 9.02 LapVar med 3.5
+Single-image Lanczos (B1)          n=34 SSIM 0.831 [0.801,0.857] PSNR 24.46 LPIPS 0.352 NIQE 8.57 LapVar med 5.9
+Homography+alpha-blend (B2)        n=34 SSIM 0.767 [0.751,0.783] PSNR 18.44 LPIPS 0.358 NIQE 5.05 LapVar med 73.0
+Similarity+alpha-blend (B3)        n=34 SSIM 0.717 [0.700,0.731] PSNR 16.17 LPIPS 0.460 NIQE 4.84 LapVar med 78.5
+SIFT, fusion + aggressive post (V5) n=34 SSIM 0.664 [0.648,0.680] PSNR 19.25 LPIPS 0.559 NIQE 4.78 LapVar med 359.1
+SIFT, fusion + light post (P2)     n=34 SSIM 0.780 [0.763,0.797] PSNR 21.18 LPIPS 0.430 NIQE 4.73 LapVar med 98.7
+SIFT, fusion, no post (P1)         n=34 SSIM 0.820 [0.789,0.847] PSNR 24.41 LPIPS 0.355 NIQE 6.25 LapVar med 16.4
+LightGlue, fusion + aggr. post (A1) n=34 SSIM 0.676 [0.659,0.694] PSNR 19.37 LPIPS 0.531 NIQE 4.89 LapVar med 374.9
+LightGlue, fusion, no post (P3=prop) n=34 SSIM 0.823 [0.792,0.849] PSNR 24.41 LPIPS 0.349 NIQE 5.86 LapVar med 18.1
+
+-- (b) full set, 55 pairs, fallback (resize) included where registration failed --
+Input                              n=55 SSIM 0.819 [0.793,0.843] PSNR 22.77 LPIPS 0.376 NIQE 9.48 LapVar med 3.4
+Single-image Lanczos (B1)          n=55 SSIM 0.818 [0.791,0.843] PSNR 22.77 LPIPS 0.372 NIQE 9.01 LapVar med 5.5
+Homography+alpha-blend (B2)        n=55 SSIM 0.748 [0.728,0.767] PSNR 17.39 LPIPS 0.414 NIQE 5.68 LapVar med 78.0
+SIFT, fusion + aggressive post (V5) n=55 SSIM 0.656 [0.644,0.668] PSNR 18.65 LPIPS 0.575 NIQE 5.09 LapVar med 451.1
+SIFT, fusion, no post (P1)         n=55 SSIM 0.804 [0.777,0.829] PSNR 22.71 LPIPS 0.379 NIQE 6.34 LapVar med 20.0
+LightGlue, fusion + aggr. post (A1) n=55 SSIM 0.675 [0.661,0.689] PSNR 18.83 LPIPS 0.532 NIQE 5.03 LapVar med 378.9
+LightGlue, fusion, no post (P3=prop) n=55 SSIM 0.809 [0.783,0.833] PSNR 22.72 LPIPS 0.367 NIQE 5.91 LapVar med 18.2
+
+-- (c) the 21 SIFT-failure pairs only --
+Input                              n=21 SSIM 0.797 [0.750,0.842] PSNR 20.02 LPIPS 0.409 NIQE 10.22 LapVar med 1.5
+P1 (fallback=resize of M1)         n=21 SSIM 0.778 [0.729,0.823] PSNR 19.95 LPIPS 0.417 NIQE 6.48 LapVar med 22.1
+P3 LightGlue                       n=21 SSIM 0.786 [0.738,0.832] PSNR 19.98 LPIPS 0.397 NIQE 5.99 LapVar med 18.3
+
+-- paired tests, full res --
+ssim
+  P1 (no post) - V5 (post), 34 common: mean diff +0.1564 [95% CI +0.1329,+0.1769] wins 32/34 (ties 0) p=1.16e-09
+  P3 (LG) - P1 (SIFT), 34 common: mean diff +0.0024 [95% CI +0.0011,+0.0038] wins 28/34 (ties 0) p=0.000268
+  P3 - input, 55: mean diff -0.0101 [95% CI -0.0108,-0.0094] wins 0/55 (ties 0) p=1.11e-10
+  P3 - single-image Lanczos, 55: mean diff -0.0089 [95% CI -0.0097,-0.0081] wins 0/55 (ties 0) p=1.11e-10
+  P3 - input, 21 SIFT-fail pairs: mean diff -0.0106 [95% CI -0.0116,-0.0096] wins 0/21 (ties 0) p=9.54e-07
+lpips
+  P1 (no post) - V5 (post), 34 common: mean diff -0.2035 [95% CI -0.2235,-0.1839] wins 0/34 (ties 0) p=1.16e-10
+  P3 (LG) - P1 (SIFT), 34 common: mean diff -0.0062 [95% CI -0.0104,-0.0027] wins 7/34 (ties 0) p=8.89e-05
+  P3 - input, 55: mean diff -0.0088 [95% CI -0.0122,-0.0055] wins 16/55 (ties 0) p=1.27e-05
+  P3 - single-image Lanczos, 55: mean diff -0.0048 [95% CI -0.0080,-0.0018] wins 21/55 (ties 0) p=0.00716
+  P3 - input, 21 SIFT-fail pairs: mean diff -0.0118 [95% CI -0.0191,-0.0052] wins 6/21 (ties 0) p=0.00554
+niqe
+  P1 (no post) - V5 (post), 34 common: mean diff +1.4647 [95% CI +1.1515,+1.7664] wins 32/34 (ties 0) p=5.82e-10
+  P3 (LG) - P1 (SIFT), 34 common: mean diff -0.3891 [95% CI -0.5816,-0.2072] wins 11/34 (ties 0) p=0.000628
+  P3 - input, 55: mean diff -3.5728 [95% CI -3.8872,-3.2565] wins 0/55 (ties 0) p=1.11e-10
+  P3 - single-image Lanczos, 55: mean diff -3.1007 [95% CI -3.4399,-2.7838] wins 0/55 (ties 0) p=1.11e-10
+  P3 - input, 21 SIFT-fail pairs: mean diff -4.2331 [95% CI -4.6259,-3.8234] wins 0/21 (ties 0) p=9.54e-07
+
+-- per-scenario, P3 vs input, full res --
+  S1 ssim: prop 0.875 input 0.885 rel -1.1%
+  S1 psnr: prop 26.882 input 26.955 rel -0.3%
+  S1 lpips: prop 0.306 input 0.314 rel -2.5%
+  S1 niqe: prop 5.709 input 9.121 rel -37.4%
+  S2 ssim: prop 0.838 input 0.847 rel -1.1%
+  S2 psnr: prop 25.432 input 25.481 rel -0.2%
+  S2 lpips: prop 0.395 input 0.417 rel -5.3%
+  S2 niqe: prop 7.180 input 10.731 rel -33.1%
+  S3 ssim: prop 0.848 input 0.856 rel -1.0%
+  S3 psnr: prop 25.610 input 25.661 rel -0.2%
+  S3 lpips: prop 0.326 input 0.331 rel -1.5%
+  S3 niqe: prop 5.568 input 8.370 rel -33.5%
+  S4 ssim: prop 0.856 input 0.866 rel -1.2%
+  S4 psnr: prop 26.203 input 26.265 rel -0.2%
+  S4 lpips: prop 0.289 input 0.285 rel +1.1%
+  S4 niqe: prop 5.147 input 8.979 rel -42.7%
+  S5 ssim: prop 0.628 input 0.641 rel -1.9%
+  S5 psnr: prop 9.470 input 9.505 rel -0.4%
+  S5 lpips: prop 0.521 input 0.533 rel -2.3%
+  S5 niqe: prop 5.935 input 10.202 rel -41.8%
+
+====================================================================== 
+MATCHED 512 px (compare_proc512.json)
+pairs: 55  pairs with OCR: 55
+aligned (Proposed single): 55
+  Input              ssim  0.816 [0.788,0.842]
+  Input              psnr  23.042 [21.147,24.816]
+  Input              lpips 0.310 [0.284,0.337]
+  Input              niqe  6.715 [6.419,7.016]
+  Input              char_acc 0.169 [0.129,0.211]  median 0.154
+  Input              word_acc 0.044 [0.020,0.071]  median 0.000
+  Input              runtime_ms mean 0
+  Proposed (single)  ssim  0.806 [0.778,0.832]
+  Proposed (single)  psnr  22.976 [21.062,24.720]
+  Proposed (single)  lpips 0.299 [0.275,0.325]
+  Proposed (single)  niqe  5.315 [5.133,5.496]
+  Proposed (single)  char_acc 0.170 [0.132,0.209]  median 0.172
+  Proposed (single)  word_acc 0.037 [0.017,0.062]  median 0.000
+  Proposed (single)  runtime_ms mean 10378
+  Proposed           ssim  0.805 [0.778,0.831]
+  Proposed           psnr  22.929 [21.028,24.698]
+  Proposed           lpips 0.312 [0.287,0.338]
+  Proposed           niqe  5.375 [5.210,5.534]
+  Proposed           char_acc 0.163 [0.125,0.202]  median 0.158
+  Proposed           word_acc 0.034 [0.015,0.057]  median 0.000
+  Proposed           runtime_ms mean 10378
+  TTSR-rec           ssim  0.696 [0.673,0.717]
+  TTSR-rec           psnr  18.761 [17.426,19.978]
+  TTSR-rec           lpips 0.279 [0.258,0.301]
+  TTSR-rec           niqe  5.029 [4.810,5.250]
+  TTSR-rec           char_acc 0.192 [0.186,0.199]  median 0.195
+  TTSR-rec           word_acc 0.002 [0.001,0.004]  median 0.000
+  TTSR-rec           runtime_ms mean 230
+
+-- paired OCR tests (pair level) --
+char_acc
+  Proposed - Input: mean diff +0.0011 [95% CI -0.0061,+0.0082] wins 31/55 (ties 2) p=0.39
+  TTSR - Input: mean diff +0.0235 [95% CI -0.0194,+0.0632] wins 40/55 (ties 0) p=0.0665
+  TTSR - Proposed: mean diff +0.0224 [95% CI -0.0161,+0.0590] wins 40/55 (ties 0) p=0.0653
+  Proposed(MS) - Input: mean diff -0.0063 [95% CI -0.0155,+0.0021] wins 25/55 (ties 5) p=0.327
+word_acc
+  Proposed - Input: mean diff -0.0063 [95% CI -0.0134,-0.0000] wins 5/55 (ties 39) p=0.0927
+  TTSR - Input: mean diff -0.0413 [95% CI -0.0688,-0.0183] wins 6/55 (ties 33) p=0.00266
+  TTSR - Proposed: mean diff -0.0350 [95% CI -0.0594,-0.0141] wins 7/55 (ties 33) p=0.00893
+  Proposed(MS) - Input: mean diff -0.0093 [95% CI -0.0169,-0.0030] wins 4/55 (ties 36) p=0.00737
+
+-- paired fidelity tests (pair level, 55) --
+ssim
+  Proposed - Input: mean diff -0.0097 [95% CI -0.0104,-0.0089] wins 0/55 (ties 0) p=1.11e-10
+  TTSR - Input: mean diff -0.1199 [95% CI -0.1351,-0.1048] wins 0/55 (ties 0) p=1.11e-10
+  TTSR - Proposed: mean diff -0.1102 [95% CI -0.1258,-0.0950] wins 0/55 (ties 0) p=1.11e-10
+psnr
+  Proposed - Input: mean diff -0.0669 [95% CI -0.0733,-0.0606] wins 0/55 (ties 0) p=1.11e-10
+  TTSR - Input: mean diff -4.2818 [95% CI -4.9910,-3.5488] wins 0/55 (ties 0) p=1.11e-10
+  TTSR - Proposed: mean diff -4.2149 [95% CI -4.9333,-3.5082] wins 4/55 (ties 0) p=2.66e-10
+lpips
+  Proposed - Input: mean diff -0.0110 [95% CI -0.0142,-0.0081] wins 5/55 (ties 0) p=7.36e-10
+  TTSR - Input: mean diff -0.0313 [95% CI -0.0548,-0.0085] wins 22/55 (ties 0) p=0.0653
+  TTSR - Proposed: mean diff -0.0203 [95% CI -0.0413,+0.0005] wins 22/55 (ties 0) p=0.215
+niqe
+  Proposed - Input: mean diff -1.3997 [95% CI -1.6495,-1.1658] wins 1/55 (ties 0) p=1.46e-10
+  TTSR - Input: mean diff -1.6851 [95% CI -2.0050,-1.3887] wins 2/55 (ties 0) p=1.82e-10
+  TTSR - Proposed: mean diff -0.2853 [95% CI -0.4941,-0.0894] wins 19/55 (ties 0) p=0.0253
+
+-- scene level (n=11), OCR char acc --
+char_acc
+  Proposed - Input (scene): mean diff +0.0011 [95% CI -0.0054,+0.0077] wins 7/11 (ties 0) p=0.7
+  TTSR - Input (scene): mean diff +0.0235 [95% CI -0.0430,+0.0903] wins 5/11 (ties 0) p=0.32
+  TTSR - Proposed (scene): mean diff +0.0224 [95% CI -0.0413,+0.0867] wins 5/11 (ties 0) p=0.32
+word_acc
+  Proposed - Input (scene): mean diff -0.0063 [95% CI -0.0140,+0.0004] wins 3/11 (ties 4) p=0.297
+  TTSR - Input (scene): mean diff -0.0413 [95% CI -0.0726,-0.0143] wins 3/11 (ties 2) p=0.0547
+  TTSR - Proposed (scene): mean diff -0.0350 [95% CI -0.0606,-0.0113] wins 3/11 (ties 2) p=0.0547
+
+-- per-scenario OCR (char / word), matched 512 --
+  S1 (n=11): Input c=0.276 w=0.134 | Proposed  c=0.277 w=0.120 | TTSR-rec c=0.191 w=0.001 | wins vs input: prop 8/11 ttsr 5/11
+  S2 (n=11): Input c=0.105 w=0.001 | Proposed  c=0.106 w=0.002 | TTSR-rec c=0.190 w=0.003 | wins vs input: prop 5/11 ttsr 11/11
+  S3 (n=11): Input c=0.111 w=0.003 | Proposed  c=0.119 w=0.003 | TTSR-rec c=0.190 w=0.000 | wins vs input: prop 8/11 ttsr 10/11
+  S4 (n=11): Input c=0.125 w=0.004 | Proposed  c=0.131 w=0.001 | TTSR-rec c=0.187 w=0.004 | wins vs input: prop 7/11 ttsr 9/11
+  S5 (n=11): Input c=0.227 w=0.075 | Proposed  c=0.216 w=0.060 | TTSR-rec c=0.203 w=0.003 | wins vs input: prop 3/11 ttsr 5/11
+
+-- per-scenario SSIM/NIQE, matched 512 --
+  S1: Input ssim=0.904 niqe=5.83 lpips=0.197 | Proposed  ssim=0.894 niqe=5.00 lpips=0.194 | TTSR-rec ssim=0.712 niqe=5.07 lpips=0.260 | 
+  S2: Input ssim=0.833 niqe=6.79 lpips=0.381 | Proposed  ssim=0.824 niqe=5.83 lpips=0.354 | TTSR-rec ssim=0.769 niqe=5.38 lpips=0.209 | 
+  S3: Input ssim=0.840 niqe=6.54 lpips=0.295 | Proposed  ssim=0.832 niqe=5.18 lpips=0.286 | TTSR-rec ssim=0.738 niqe=4.86 lpips=0.231 | 
+  S4: Input ssim=0.873 niqe=7.86 lpips=0.226 | Proposed  ssim=0.864 niqe=5.29 lpips=0.223 | TTSR-rec ssim=0.700 niqe=4.87 lpips=0.279 | 
+  S5: Input ssim=0.628 niqe=6.54 lpips=0.452 | Proposed  ssim=0.616 niqe=5.27 lpips=0.439 | TTSR-rec ssim=0.560 niqe=4.97 lpips=0.415 | 
+
+Input char-acc: zeros 0 min 0.0025380710659898 max 0.5925925925925926
+TTSR char-acc: zeros 0 min 0.12690631808278863 max 0.23469387755102045 std 0.024664050093767275
+NIQE matched: 6.71->5.31 (-20.8%)
+NIQE full: 9.48->5.91 (-37.7%)
+LPIPS wins P3 vs input full res: 39 /55;  SSIM wins: 0
+LPIPS wins matched: 50 /55; NIQE wins: 54
